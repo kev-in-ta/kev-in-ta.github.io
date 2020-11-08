@@ -1,0 +1,7 @@
+Model type: bayesnet
+Accuracy = 0.776
+ECE = 0.040
+
+Model type: densenet
+Accuracy = 0.791
+ECE = 0.193
