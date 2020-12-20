@@ -26,7 +26,7 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" href="#">Portfolio</a>
+  <a class="navbar-brand" href="index.html">Portfolio</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -40,10 +40,13 @@
         <a class="nav-link" href="work-experience.html">Work Experience</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="design-team.html">Design Team</a>
+        <a class="nav-link" href="design-team.html">Supermileage</a>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="projects.html">Projects<span class="sr-only">(current)</span></a>
+      <li class="nav-item">
+        <a class="nav-link" href="masterProjects.html">Graduate Projects</a>
+      </li>
+	  <li class="nav-item active">
+        <a class="nav-link" href="bachelorProjects.html">Undergraduate Projects<span class="sr-only">(current)</span></a>
       </li>
 	  <li class="nav-item">
         <a class="nav-link" href="coursework.html">Coursework</a>
@@ -63,9 +66,6 @@
 			<a class="nav-link active" data-toggle="tab" href="#overview">Overview</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link" data-toggle="tab" href="#master">Master's Course Projects</a>
-		  </li>
-		  <li class="nav-item">
 			<a class="nav-link" data-toggle="tab" href="#senior">Senior Projects</a>
 		  </li>
 		  <li class="nav-item">
@@ -80,58 +80,6 @@
 			<div class="tab-pane fade show active" id="overview">
 		  
 				<div class="container" style="margin-top:30px">
-				
-					<div class="row" style="margin-bottom:10px">
-					
-						<div class="col-sm-6" style="margin-bottom:10px">
-					
-							<div class="card border-primary mb-3 h-100" style="max-width: 40rem;">
-							  
-								<div class="card-body">
-							  
-									<h5 class="card-title">263-5210: Probabilistic Artificial Intelligence</h5>
-								
-									<p class="card-text">
-										A collection of practical projects that deal with Bayesian machine learning models from Gaussian Processes to Bayesian Neural Networks. Working under uncertainty, reducing uncertainty, and using uncertainty in predictions provide valuable input for decision making. 
-									</p>
-									
-									<p class="card-text">
-										<i>This course introduces core modeling techniques and algorithms from machine learning, optimization and control for reasoning and decision making under uncertainty, and study applications in areas such as robotics and the Internet.</i>
-									</p>
-								
-									<img src="img/projects/ETH-PAI/PAI-square.png" alt="" width=100%/>
-								
-								</div>
-							  
-							</div>
-							
-						</div>
-						
-						<div class="col-sm-6" style="margin-bottom:10px">
-						
-							<div class="card border-primary mb-3 h-100" style="max-width: 40rem;">
-								
-								<div class="card-body">
-								
-									<h5 class="card-title">227-0447: Image Analysis and Computer Vision</h5>
-									
-									<p class="card-text">
-									Sets of optional exercises that utilize key computer vision algorithms and are applied for custom image analyses. 
-									</p>
-									
-									<p class="card-text">
-										<i>Light and perception. Digital image formation. Image enhancement and feature extraction. Unitary transformations. Color and texture. Image segmentation. Motion extraction and tracking. 3D data extraction. Invariant features. Specific object recognition and object class recognition. Deep learning and Convolutional Neural Networks.</i>
-									</p>
-									
-									<img src="img/projects/ETH-IACV/IACV-square.png" alt="" width=100%/>
-								
-								</div>
-								
-							</div>
-							
-						</div>
-					
-					</div>
 				
 					<div class="row" style="margin-bottom:10px">
 					
@@ -333,253 +281,6 @@
 		  
 			</div>
 			
-			<div class="tab-pane fade" id="master">
-			
-				<div class="progress" style="margin-top:15px">
-					<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-				</div>
-			
-				<div class="row">
-			
-					<div class="col-sm-2">
-						<h1 style="margin-top:15px" class="text-primary" id="PAI">263-5210</h1>
-					</div>
-					
-					<div class="col-sm-10" style="margin:auto">
-						
-						<div class="container" style="margin-top:15px">
-							
-							<h1 class="text-center">Gaussian Processes for Groundwater Contamination Prediction</h1>
-							
-							<div class="col-sm-6 text-center mx-auto">
-								<img src="img/projects/ETH-PAI/g7-conditional-output.png" class="img-fluid" alt=""/>  
-							</div>
-							
-							<p class="text-center"><small>Conditional probability bounded by one standard deviation</small></p>
-							
-							<h3 style="margin-top:30px">Probabilistic Artificial Intelligence Project #1</h3>
-
-							<h5>
-								<span class="badge badge-pill badge-primary">gaussian processes</span>
-								<span class="badge badge-pill badge-primary">asymmetric costs</span>
-								<span class="badge badge-pill badge-primary">kernel approximations</span>
-							</h5>
-							
-							<hr class="my-4">
-
-							<p><b>Task Motivation</b></p>
-
-							<p>
-								<i>
-								 According to the United Nations, one in three people worldwide do not have access to safe drinking water. Unsafe water is a leading risk factor for death, especially at low incomes, and is one of the world's largest health and environmental problems. Groundwater pollution occurs when pollutants are released into the ground and make their way down into groundwater. While water contamination can occur from naturally occurring contaminants, such as arsenic or fluoride, common causes of water pollution are on-site sanitation systems, effluent from wastewater treatment plants, petrol filling stations or agricultural fertilizers.</i>
-							</p>
-							
-							<p>
-							 <i>In order to prevent outbreaks and incidents of water poisonings, detecting ground-water contamination is crucial. Geostatistics has often utilized the Gaussian Process (GP) to model the spatial pattern of pollutant concentrations in the ground. Usually, a data point in 2D represents a geological well where a sample was taken from a bore hole to measure concentration of pollutants. </i>
-							</p>
-
-							<p><b>The Gaussian Process</b></p>
-
-							<p>Gaussian models are especially useful in these applications as they, by nature, incorporate uncertainty into their models allowing for more aggressive or conservative manipulation of the predictions. Following the successful completion of this project, I wanted to visualize what the Gaussian process output provides visually in terms of estimation and prediction. I'll walk through some of the key challenges in developing my solution. But first, let's visualize what the training data set looks like. I'll be utilizing a 2D scatter plot with differing hues related to concentration of contaminants. For reference, the cut-off threshold for water drinking safety is 0.5.</p>
-							
-							<p>The first major obstacle in developing our Gaussian model is building our covariance matrix, or kernel matrix. The provided training set has 17250 data points and the resulting covariance matrix would result in a 17250-by-17250 (n-by-n) matrix. With calculations growing at an n-squared rate, the creation of a sparse representation becomes extremely useful. To create a smaller m-by-m kernel, where m << n, we want to capture key qualities of the dataset. To choose these inducing points, we add co-ordinates of local extrema and values around the safety threshold. From the above figure, we also notice a sparse region and ensure those points are added to our set of inducing points. </p>
-							
-							<div class="row">
-							
-								<div class="col-sm-6" style="margin:auto">
-									<img src="img/projects/ETH-PAI/g1-measured-points.png" class="img-fluid" alt=""/>  
-								</div>
-								
-								<div class="col-sm-6" style="margin:auto">
-									<img src="img/projects/ETH-PAI/g2-sparse-approximation.png" class="img-fluid" alt=""/>  
-								</div>
-							
-							</div>
-							
-							<p class="text-center"><small>Original and sparse selection of training data for groundwater contamination</small></p>
-
-							<p>Once you have your set of inducing points, you have to next select a kernel. RBF (radial basis function) is one of the most common, but we found that the Matern-1.5 kernel worked best for us. Let's see what those predictions (the Gaussian means) showcase. </p>
-							
-							<div class="col-sm-6 text-center mx-auto">
-								<img src="img/projects/ETH-PAI/g3-gaussian-mean.png" class="img-fluid" alt=""/>  
-							</div>
-							
-							<p class="text-center"><small>Gaussian mean prediction of contaminated groundwater</small></p>
-							
-							However, the Gaussian mean may not be the best classifier. Provided to us was an asymmetric cost function which punished underestimation of contamination more severely than overestimation. This penalty is further multiplied if you are above the safety threshold. The Gaussian process regression has a way to tackle this, however. We can also sample the standard deviation at any point we have selected, which encodes a degree of uncertainty in the prediction.</p>
-
-							<div class="col-sm-6" style="margin:auto">
-								<img src="img/projects/ETH-PAI/g4-standard-deviation.png" class="img-fluid" alt=""/>  
-							</div>
-							
-							<p class="text-center"><small>Standard deviation of the resulting predictions and conservative adjustment</small></p>
-							
-							<p>This standard deviation can then be used to make our predictions more conservative, adding a small buffer where the classifiers is confident and a large buffer where the classifier is not. This will allow for an accurate, yet conservative, estimator wherever uncertainty is high.</p>
-							
-							<div class="row">
-
-								<div class="col-sm-6" style="margin:auto">
-									<img src="img/projects/ETH-PAI/g3-gaussian-mean.png" class="img-fluid" alt=""/>  
-								</div>
-								
-								<div class="col-sm-6" style="margin:auto">
-									<img src="img/projects/ETH-PAI/g5-adjusted-prediction.png" class="img-fluid" alt=""/>  
-								</div>
-							
-							</div>
-							
-							<p class="text-center"><small>Adjusted prediction after factoring in uncertainty</small></p>
-							
-							<br>
-							
-						</div>
-						
-						<div class="progress">
-							<div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>
-						
-						<div class="container" style="margin-top:15px">
-							
-							<h1 class="text-center">Bayesian Deep Learning on Rotated MNIST</h1>
-							
-							<div class="col-sm-6 text-center mx-auto">
-								<img src="img/projects/ETH-PAI/BNN/BNN-CM.png" class="img-fluid" alt=""/>  
-							</div>
-							
-							<p class="text-center"><small>Confusion matrix on the validation set where 30% of images are rotated</small></p>
-							
-							<h3 style="margin-top:30px">Probabilistic Artificial Intelligence Project #2</h3>
-
-							<h5>
-								<span class="badge badge-pill badge-primary">bayesian deep learning</span>
-								<span class="badge badge-pill badge-primary">nn calibration</span>
-								<span class="badge badge-pill badge-primary">pytorch</span>
-							</h5>
-							
-							<hr class="my-4">
-							
-							<p>One of the significant advantages of Bayesian deep learning is its ability to better quantify uncertainty. Treating each node of the neural network as a normal distribution with some mean and standard deviation allows us to capture a broader image and can help prevent some issues of overfitting. A very specific metric that can be used is the expected calibration error as discussed by <a href='https://arxiv.org/pdf/1706.04599.pdf'>Guo et al., 2017</a>:
-							
-							$$\hat{\text{ECE}} = \sum_{m=1}^M \frac{|B_m|}{n} | acc(B_m) - conf(B_m) |$$
-							
-							Essentially, a well-calibrated NN should have similar accuracy to the confidence of its prediction. </p>
-							
-							<p><b>Bayesian Neural Network (BNN)</b></p>
-							
-							<p>In this project we looked to create a simple dense feedforward NN that has a normal distribution at each node as opposed to a singular value. The primary tool involved in optimization is variational inference where we model the true distribution as a Gaussian. We then utilize the <a href='https://en.wikipedia.org/wiki/Evidence_lower_bound'>Evidence Lower BOund (ELBO)</a>, which is a combination of cross-entropy loss and <a href='https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence'>Kullback-Leibler divergence</a>, to optimize the loss.
-							
-							<div class="row">
-								<div class="col-sm-6" style="margin:auto">
-									<img src="img/projects/ETH-PAI/BNN/BNN-Train-Loss.png" class="img-fluid" alt=""/>  
-								</div>
-								<div class="col-sm-6" style="margin:auto">
-									<img src="img/projects/ETH-PAI/BNN/BNN-Train-Acc.png" class="img-fluid" alt=""/>  
-								</div>
-							</div>
-							
-							<p class="text-center"><small>Loss and accuracy throughout 100 epochs of training</small></p>
-							
-							The validation set for this, however, is slightly modified. 30% of the validation set (10,000 of the MNIST dataset) is randomly rotated orthogonally. This means that 30% of the images being tested act as out-of-sample test sets. This results in interesting results when we look at which images the BNN is most confident and least confident with. 
-								
-							<div class="col-sm-12" style="margin:auto">
-								<img src="img/projects/ETH-PAI/BNN/BNN-Most-Confident.png" class="img-fluid" alt=""/>  
-							</div>
-							
-							<div class="col-sm-12" style="margin:auto">
-								<img src="img/projects/ETH-PAI/BNN/BNN-Least-Confident.png" class="img-fluid" alt=""/>  
-							</div>
-							
-							<p class="text-center"><small>Sample of most and least confident predictions</small></p>
-							
-							<p>Comparing the BNN to a dense NN implementation, we see a very interesting result in the confidence:</p>
-							
-							<div class="row">
-								<div class="col-sm-6" style="margin:auto">
-									<img src="img/projects/ETH-PAI/BNN/BNN-Acc-Conf.png" class="img-fluid" alt=""/>  
-								</div>
-								<div class="col-sm-6" style="margin:auto">
-									<img src="img/projects/ETH-PAI/BNN/DNN-Acc-Conf.png" class="img-fluid" alt=""/>  
-								</div>
-							</div>
-							
-							<p class="text-center"><small>Accuracy compared against confidence when correct and incorrect for BNN and DNN</small></p>
-							
-							<p>The BNN tends to be much more uncertain when it's incorrect compared the DNN which overestimates its confidence by quite a significant margin. Even when the DNN is incorrect, it still believes it is correct with typically >90% confidence. This is one potential advantage of using BNNs where quantifying and having accurate uncertainty is necessary. The performance of the two NNs are summarized below. (Accuracy should be high, while ECE should be minimized)</p>
-
-							<p><b>Model type:</b> bayesnet <br>
-  							<b>Accuracy:</b> 0.776 <br>
-							<b>ECE:</b> 0.040 </p>
-
-							<p><b>Model type:</b> densenet <br>
-							<b>Accuracy:</b> 0.791 <br>
-							<b>ECE:</b> 0.193 </p>
-							
-						</div>
-						
-					</div>
-					
-				</div>
-				
-				<div class="progress" style="margin-top:15px">
-					<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-				</div>
-			
-				<div class="row">
-			
-					<div class="col-sm-2">
-						<h1 style="margin-top:15px" class="text-primary" id="PAI">227-0447</h1>
-					</div>
-					
-					<div class="col-sm-10" style="margin:auto">
-						
-						<div class="container" style="margin-top:15px">
-							
-							<h1 class="text-center">Harris Corner & Canny Edge Detection</h1>
-							
-							<div class="col-sm-12 text-center mx-auto">
-								<img src="img/projects/ETH-IACV/IACV-canny-1.png" class="img-fluid" alt=""/>  
-							</div>
-							
-							<p class="text-center"><small>Canny edge acting on a noisy image of a cube</small></p>
-							
-							<h3 style="margin-top:30px">Image Analysis and Computer Vision Exercise #1</h3>
-
-							<h5>
-								<span class="badge badge-pill badge-primary">feature extraction</span>
-								<span class="badge badge-pill badge-primary">harris corner</span>
-								<span class="badge badge-pill badge-primary">canny edge</span>
-							</h5>
-							
-							<hr class="my-4">
-
-							<p>In image analysis, the construction of features allows for more complicated models for perception and object recognition. Two of the most basic features are corners and edges, characterized by strong gradients and feature transitions. </p>
-							
-							<p>The Harris Corner detection utilizes the partial derivatives (found via convolution with Sobel masks), further smoothing, and the construction of an auto-correlation matrix to determine a "Harris Response." This Harris Response is a measure of "corneriness" with negative values representing edges, neutral values representing homogenous areas, and positive values representing corners. </p>
-							
-							<div class="col-sm-12 text-center mx-auto">
-								<img src="img/projects/ETH-IACV/IACV-harris-1.png" class="img-fluid" alt=""/>  
-							</div>
-							
-							<p class="text-center"><small>Harris Response and corner identification for simple geometries</small></p>
-							
-							<p>To create clear edge boundaries on the other hand, we can use Canny Edge detection.</p>
-							
-							<p>This detection method calculates the partial derivatives (again using Sobel masks), and then determines the gradient magnitude and the gradient direction. The gradient magnitude can be thought of as a measure of edginess with larger values corresponding to sharp image transitions and edges. The direction is important in synthesizing and refining the edge properties (such as thickness). </p>
-							
-							<div class="col-sm-12 text-center mx-auto">
-								<img src="img/projects/ETH-IACV/IACV-canny-2.png" class="img-fluid" alt=""/>  
-							</div>
-							
-							<p class="text-center"><small>Canny Edge detection on an image of UBC Supermileage Mark XIV at Pitt Meadows, BC</small></p>
-							
-						</div>
-
-					</div>
-					
-				</div>
-				
-			</div>
-			
 			<div class="tab-pane fade" id="senior">
 			
 				<div class="progress" style="margin-top:15px">
@@ -619,9 +320,10 @@
 							  1st Place @ 2020 Microsoft Discover AI - Healthcare Stream<br>
 							  2nd Place @ 2020 Innovation OnBoard, UBC's Premier Start-up Competition<br>
 							  2020 New Venture Design UBC Faculty of Applied Science Award<br>
-							  2020 New Venture Design Industry Judge Award</br>
+							  2020 New Venture Design Industry Judge Award<br>
+							  2020 Create the Future Design Contest Top 100<br>
 							  2020 Dempsey Start-up Competition Investment Round Alternative<br>
-							  2019 RBC Get Seeded Winner<p>
+							  2019 RBC Get Seeded Winner</p>
 							  
 
 							<p>In this entrepreneurship course collaboration with fellow engineers and business students, we explored the issue of IV infiltration, a complication in the administration of intravenous fluid. This issue is a common complication which has infrequent, but highly severe consequences. With certain vulnerable populations like the young, the elderly, and the sick, these complications can lead to permanent damage to tissue or worse. </p>
