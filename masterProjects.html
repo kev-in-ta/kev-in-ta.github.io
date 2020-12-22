@@ -26,7 +26,7 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" href="index.html">Portfolio</a>
+  <a class="navbar-brand" href="index.html">kev-in-ta</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -59,7 +59,7 @@
 
 <div class="container" style="margin-top:30px">
   <div class="row">
-    <div class="col-sm-12">
+    <div class="col-lg-12">
 
 		<ul class="nav nav-tabs">
 		  <li class="nav-item">
@@ -83,7 +83,7 @@
 				
 					<div class="row" style="margin-bottom:10px">
 					
-						<div class="col-sm-6" style="margin-bottom:10px">
+						<div class="col-lg-6" style="margin-bottom:10px">
 					
 							<div class="card border-primary mb-3 h-100" style="max-width: 40rem;">
 							  
@@ -107,7 +107,7 @@
 							
 						</div>
 						
-						<div class="col-sm-6" style="margin-bottom:10px">
+						<div class="col-lg-6" style="margin-bottom:10px">
 						
 							<div class="card border-primary mb-3 h-100" style="max-width: 40rem;">
 								
@@ -135,7 +135,7 @@
 					
 					<div class="row" style="margin-bottom:10px">
 					
-						<div class="col-sm-6" style="margin-bottom:10px">
+						<div class="col-lg-6" style="margin-bottom:10px">
 					
 							<div class="card border-primary mb-3 h-100" style="max-width: 40rem;">
 							  
@@ -173,17 +173,17 @@
 			
 				<div class="row">
 			
-					<div class="col-sm-2">
+					<div class="col-lg-2">
 						<h1 style="margin-top:15px" class="text-primary" id="PAI">263-5210</h1>
 					</div>
 					
-					<div class="col-sm-10" style="margin:auto">
+					<div class="col-lg-10" style="margin:auto">
 						
 						<div class="container" style="margin-top:15px">
 							
 							<h1 class="text-center">Reinforcement Learning</h1>
 							
-							<div class="col-sm-6" style="margin:auto">
+							<div class="col-lg-6" style="margin:auto">
 								<img src="img/projects/ETH-PAI/RL/Lunar-Lander.jpg" class="img-fluid" alt=""/>  
 							</div>
 							
@@ -192,16 +192,16 @@
 							<h3 style="margin-top:30px">Probabilistic Artificial Intelligence Project #4</h3>
 
 							<h5>
-								<span class="badge badge-pill badge-primary">reinforcement learning</span>
-								<span class="badge badge-pill badge-primary">deep learning</span>
-								<span class="badge badge-pill badge-primary">actor-critic</span>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">reinforcement learning</span>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">deep learning</span>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">actor-critic</span>
 							</h5>
 							
 							<hr class="my-4">
 							
 							<p>In this project, we look at an actor-critic implementation of reinforcement learning operating on the OpenAI Lunar Lander game. Reinforcement learning relies on two neural networks that act as an "actor" or policy function generator, and a "critic" or value function generator. In the figure below, we see how an untrained model performs inaccomplishing the objective of landing between the two flags at a slow enough speed to not crash.</p>
 							
-							<div class="col-sm-6" style="margin:auto">
+							<div class="col-lg-6" style="margin:auto">
 								<img src="img/projects/ETH-PAI/RL/RL-untrained.gif" class="img-fluid" alt=""/>  
 							</div>
 							
@@ -209,7 +209,7 @@
 							
 							<p>To improve this performance, we attach certain costs and rewards to train the "critic" network. Here, we slowly learn the value of each state and, in a Q-learning implementation, the associated value of each action. In this case, a successful landing will get a positive bonus, whereas any action (left, right, up) will subtract a cost to the value. Once this value function is in place, a policy can be optimized using gradient descent on the log loss of the temporal difference to move towards a better performing policy. The figure below shows a relatively successfully trained model after 66 epochs of training. </p>
 						
-							<div class="col-sm-6" style="margin:auto">
+							<div class="col-lg-6" style="margin:auto">
 								<img src="img/projects/ETH-PAI/RL/RL-trained.gif" class="img-fluid" alt=""/>  
 							</div>
 								
@@ -228,10 +228,10 @@
 							<h1 class="text-center">Active Learning</h1>
 							
 							<div class="row">
-								<div class="col-sm-6" style="margin:auto">
+								<div class="col-lg-6" style="margin:auto">
 									<img src="img/projects/ETH-PAI/AL/AL-GPY-Acc.png" class="img-fluid" alt=""/>  
 								</div>
-								<div class="col-sm-6" style="margin:auto">
+								<div class="col-lg-6" style="margin:auto">
 									<img src="img/projects/ETH-PAI/AL/AL-GPY-Spd.png" class="img-fluid" alt=""/>  
 								</div>
 							</div>
@@ -241,9 +241,9 @@
 							<h3 style="margin-top:30px">Probabilistic Artificial Intelligence Project #3</h3>
 
 							<h5>
-								<span class="badge badge-pill badge-primary">active learning</span>
-								<span class="badge badge-pill badge-primary">exploration / exploitation</span>
-								<span class="badge badge-pill badge-primary">gaussian processes</span>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">active learning</span>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">exploration / exploitation</span>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">gaussian processes</span>
 							</h5>
 							
 							<hr class="my-4">
@@ -270,7 +270,7 @@
 							
 							<h1 class="text-center">Bayesian Deep Learning on Rotated MNIST</h1>
 							
-							<div class="col-sm-6 text-center mx-auto">
+							<div class="col-lg-6 text-center mx-auto">
 								<img src="img/projects/ETH-PAI/BNN/BNN-CM.png" class="img-fluid" alt=""/>  
 							</div>
 							
@@ -279,9 +279,9 @@
 							<h3 style="margin-top:30px">Probabilistic Artificial Intelligence Project #2</h3>
 
 							<h5>
-								<span class="badge badge-pill badge-primary">bayesian deep learning</span>
-								<span class="badge badge-pill badge-primary">nn calibration</span>
-								<span class="badge badge-pill badge-primary">pytorch</span>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">bayesian deep learning</span>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">nn calibration</span>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">pytorch</span>
 							</h5>
 							
 							<hr class="my-4">
@@ -297,10 +297,10 @@
 							<p>In this project we looked to create a simple dense feedforward NN that has a normal distribution at each node as opposed to a singular value. The primary tool involved in optimization is variational inference where we model the true distribution as a Gaussian. We then utilize the <a href='https://en.wikipedia.org/wiki/Evidence_lower_bound'>Evidence Lower BOund (ELBO)</a>, which is a combination of cross-entropy loss and <a href='https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence'>Kullback-Leibler divergence</a>, to optimize the loss.
 							
 							<div class="row">
-								<div class="col-sm-6" style="margin:auto">
+								<div class="col-lg-6" style="margin:auto">
 									<img src="img/projects/ETH-PAI/BNN/BNN-Train-Loss.png" class="img-fluid" alt=""/>  
 								</div>
-								<div class="col-sm-6" style="margin:auto">
+								<div class="col-lg-6" style="margin:auto">
 									<img src="img/projects/ETH-PAI/BNN/BNN-Train-Acc.png" class="img-fluid" alt=""/>  
 								</div>
 							</div>
@@ -309,11 +309,11 @@
 							
 							The validation set for this, however, is slightly modified. 30% of the validation set (10,000 of the MNIST dataset) is randomly rotated orthogonally. This means that 30% of the images being tested act as out-of-sample test sets. This results in interesting results when we look at which images the BNN is most confident and least confident with. 
 								
-							<div class="col-sm-12" style="margin:auto">
+							<div class="col-lg-12" style="margin:auto">
 								<img src="img/projects/ETH-PAI/BNN/BNN-Most-Confident.png" class="img-fluid" alt=""/>  
 							</div>
 							
-							<div class="col-sm-12" style="margin:auto">
+							<div class="col-lg-12" style="margin:auto">
 								<img src="img/projects/ETH-PAI/BNN/BNN-Least-Confident.png" class="img-fluid" alt=""/>  
 							</div>
 							
@@ -322,10 +322,10 @@
 							<p>Comparing the BNN to a dense NN implementation, we see a very interesting result in the confidence:</p>
 							
 							<div class="row">
-								<div class="col-sm-6" style="margin:auto">
+								<div class="col-lg-6" style="margin:auto">
 									<img src="img/projects/ETH-PAI/BNN/BNN-Acc-Conf.png" class="img-fluid" alt=""/>  
 								</div>
-								<div class="col-sm-6" style="margin:auto">
+								<div class="col-lg-6" style="margin:auto">
 									<img src="img/projects/ETH-PAI/BNN/DNN-Acc-Conf.png" class="img-fluid" alt=""/>  
 								</div>
 							</div>
@@ -352,7 +352,7 @@
 							
 							<h1 class="text-center">Gaussian Processes for Groundwater Contamination Prediction</h1>
 							
-							<div class="col-sm-6 text-center mx-auto">
+							<div class="col-lg-6 text-center mx-auto">
 								<img src="img/projects/ETH-PAI/g7-conditional-output.png" class="img-fluid" alt=""/>  
 							</div>
 							
@@ -361,9 +361,9 @@
 							<h3 style="margin-top:30px">Probabilistic Artificial Intelligence Project #1</h3>
 
 							<h5>
-								<span class="badge badge-pill badge-primary">gaussian processes</span>
-								<span class="badge badge-pill badge-primary">asymmetric costs</span>
-								<span class="badge badge-pill badge-primary">kernel approximations</span>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">gaussian processes</span>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">asymmetric costs</span>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">kernel approximations</span>
 							</h5>
 							
 							<hr class="my-4">
@@ -387,11 +387,11 @@
 							
 							<div class="row">
 							
-								<div class="col-sm-6" style="margin:auto">
+								<div class="col-lg-6" style="margin:auto">
 									<img src="img/projects/ETH-PAI/g1-measured-points.png" class="img-fluid" alt=""/>  
 								</div>
 								
-								<div class="col-sm-6" style="margin:auto">
+								<div class="col-lg-6" style="margin:auto">
 									<img src="img/projects/ETH-PAI/g2-sparse-approximation.png" class="img-fluid" alt=""/>  
 								</div>
 							
@@ -401,7 +401,7 @@
 
 							<p>Once you have your set of inducing points, you have to next select a kernel. RBF (radial basis function) is one of the most common, but we found that the Matern-1.5 kernel worked best for us. Let's see what those predictions (the Gaussian means) showcase. </p>
 							
-							<div class="col-sm-6 text-center mx-auto">
+							<div class="col-lg-6 text-center mx-auto">
 								<img src="img/projects/ETH-PAI/g3-gaussian-mean.png" class="img-fluid" alt=""/>  
 							</div>
 							
@@ -409,7 +409,7 @@
 							
 							However, the Gaussian mean may not be the best classifier. Provided to us was an asymmetric cost function which punished underestimation of contamination more severely than overestimation. This penalty is further multiplied if you are above the safety threshold. The Gaussian process regression has a way to tackle this, however. We can also sample the standard deviation at any point we have selected, which encodes a degree of uncertainty in the prediction.</p>
 
-							<div class="col-sm-6" style="margin:auto">
+							<div class="col-lg-6" style="margin:auto">
 								<img src="img/projects/ETH-PAI/g4-standard-deviation.png" class="img-fluid" alt=""/>  
 							</div>
 							
@@ -419,11 +419,11 @@
 							
 							<div class="row">
 
-								<div class="col-sm-6" style="margin:auto">
+								<div class="col-lg-6" style="margin:auto">
 									<img src="img/projects/ETH-PAI/g3-gaussian-mean.png" class="img-fluid" alt=""/>  
 								</div>
 								
-								<div class="col-sm-6" style="margin:auto">
+								<div class="col-lg-6" style="margin:auto">
 									<img src="img/projects/ETH-PAI/g5-adjusted-prediction.png" class="img-fluid" alt=""/>  
 								</div>
 							
@@ -449,17 +449,17 @@
 			
 				<div class="row">
 			
-					<div class="col-sm-2">
+					<div class="col-lg-2">
 						<h1 style="margin-top:15px" class="text-primary" id="PAI">227-0447</h1>
 					</div>
 					
-					<div class="col-sm-10" style="margin:auto">
+					<div class="col-lg-10" style="margin:auto">
 						
 						<div class="container" style="margin-top:15px">
 							
 							<h1 class="text-center">Image Classification: BoW vs. CNN</h1>
 							
-							<div class="col-sm-8" style="margin:auto">
+							<div class="col-lg-8" style="margin:auto">
 								<img src="img/projects/ETH-IACV/classification/STL10-Ex.png" class="img-fluid" alt=""/>  
 							</div>
 							
@@ -468,11 +468,11 @@
 							<h3 style="margin-top:30px">Image Analysis and Computer Vision Exercise #3</h3>
 
 							<h5>
-								<span class="badge badge-pill badge-primary">classification</span>
-								<span class="badge badge-pill badge-primary">CNN</span>
-								<span class="badge badge-pill badge-primary">k-means</span>
-								<span class="badge badge-pill badge-primary">HOG</span>
-								<span class="badge badge-pill badge-primary">BoW</span>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">classification</span>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">CNN</span>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">k-means</span>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">HOG</span>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">BoW</span>
 							</h5>
 							
 							<hr class="my-4">
@@ -487,11 +487,11 @@
 
 							<div class="row">
 
-								<div class="col-sm-6" style="margin:auto">
+								<div class="col-lg-6" style="margin:auto">
 									<img src="img/projects/ETH-IACV/classification/HOG-STL2.png" class="img-fluid" alt=""/>  
 								</div>
 								
-								<div class="col-sm-6" style="margin:auto">
+								<div class="col-lg-6" style="margin:auto">
 									<img src="img/projects/ETH-IACV/classification/HOG-STL10.png" class="img-fluid" alt=""/>  
 								</div>
 							
@@ -505,11 +505,11 @@
 							
 							<div class="row">
 
-								<div class="col-sm-6" style="margin:auto">
+								<div class="col-lg-6" style="margin:auto">
 									<img src="img/projects/ETH-IACV/classification/CNN-STL2.png" class="img-fluid" alt=""/>  
 								</div>
 								
-								<div class="col-sm-6" style="margin:auto">
+								<div class="col-lg-6" style="margin:auto">
 									<img src="img/projects/ETH-IACV/classification/CNN-STL10.png" class="img-fluid" alt=""/>  
 								</div>
 							
@@ -521,11 +521,11 @@
 							
 							<div class="row">
 
-								<div class="col-sm-6" style="margin:auto">
+								<div class="col-lg-6" style="margin:auto">
 									<img src="img/projects/ETH-IACV/classification/CNN-Acc-STL2.png" class="img-fluid" alt=""/>  
 								</div>
 								
-								<div class="col-sm-6" style="margin:auto">
+								<div class="col-lg-6" style="margin:auto">
 									<img src="img/projects/ETH-IACV/classification/CNN-Acc-STL10.png" class="img-fluid" alt=""/>  
 								</div>
 							
@@ -546,11 +546,11 @@
 							
 							<div class="row">
 
-								<div class="col-sm-6" style="margin:auto">
+								<div class="col-lg-6" style="margin:auto">
 									<img src="img/projects/ETH-IACV/classification/CNN-STL2-reg.png" class="img-fluid" alt=""/>  
 								</div>
 								
-								<div class="col-sm-6" style="margin:auto">
+								<div class="col-lg-6" style="margin:auto">
 									<img src="img/projects/ETH-IACV/classification/CNN-STL10-reg.png" class="img-fluid" alt=""/>  
 								</div>
 							
@@ -562,11 +562,11 @@
 							
 							<div class="row">
 
-								<div class="col-sm-6" style="margin:auto">
+								<div class="col-lg-6" style="margin:auto">
 									<img src="img/projects/ETH-IACV/classification/CNN-Acc-STL2-reg.png" class="img-fluid" alt=""/>  
 								</div>
 								
-								<div class="col-sm-6" style="margin:auto">
+								<div class="col-lg-6" style="margin:auto">
 									<img src="img/projects/ETH-IACV/classification/CNN-Acc-STL10-reg.png" class="img-fluid" alt=""/>  
 								</div>
 							
@@ -586,7 +586,7 @@
 							
 							<h1 class="text-center">Stereo Vision</h1>
 							
-							<div class="col-sm-12" style="margin:auto">
+							<div class="col-lg-12" style="margin:auto">
 								<img src="img/projects/ETH-IACV/stereo/correlation.png" class="img-fluid" alt=""/>  
 							</div>
 							
@@ -595,9 +595,9 @@
 							<h3 style="margin-top:30px">Image Analysis and Computer Vision Exercise #2</h3>
 
 							<h5>
-								<span class="badge badge-pill badge-primary">stereo vision</span>
-								<span class="badge badge-pill badge-primary">correlation</span>
-								<span class="badge badge-pill badge-primary">point cloud reconstruction</span>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">stereo vision</span>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">correlation</span>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">point cloud reconstruction</span>
 							</h5>
 							
 							<hr class="my-4">
@@ -606,7 +606,7 @@
 							
 							<p>With the two sets of stereo images, you can construct a 3D point cloud of the setting. For example, the below image shows the original captured stereo images.</p>
 							
-							<div class="col-sm-12" style="margin:auto">
+							<div class="col-lg-12" style="margin:auto">
 								<img src="img/projects/ETH-IACV/stereo/stereo.png" class="img-fluid" alt=""/>  
 							</div>
 							
@@ -614,7 +614,7 @@
 							
 							<p>Which can then be reconstructed into the following 3D point cloud.</p>
 							
-							<div class="col-sm-6" style="margin:auto">
+							<div class="col-lg-6" style="margin:auto">
 								<img src="img/projects/ETH-IACV/stereo/tsukasa-point-cloud.png" class="img-fluid" alt=""/>  
 							</div>
 							
@@ -622,7 +622,7 @@
 							
 							<p>On images where there are less features to match corresponding patches, the results are typically much noisier and worse. If we take the following stereo images of cubes:</p>
 							
-							<div class="col-sm-12" style="margin:auto">
+							<div class="col-lg-12" style="margin:auto">
 								<img src="img/projects/ETH-IACV/stereo/stereocube.png" class="img-fluid" alt=""/>  
 							</div>
 							
@@ -630,7 +630,7 @@
 							
 							<p>We reconstruct a highly noisy point cloud where most of the darker parts of the image have uniform cross-correlation and poor feature localization in 3D space.</p>
 							
-							<div class="col-sm-6" style="margin:auto">
+							<div class="col-lg-6" style="margin:auto">
 								<img src="img/projects/ETH-IACV/stereo/box-point-cloud.png" class="img-fluid" alt=""/>  
 							</div>
 							
@@ -648,7 +648,7 @@
 							
 							<h1 class="text-center">Harris Corner & Canny Edge Detection</h1>
 							
-							<div class="col-sm-12 text-center mx-auto">
+							<div class="col-lg-12 text-center mx-auto">
 								<img src="img/projects/ETH-IACV/IACV-canny-1.png" class="img-fluid" alt=""/>  
 							</div>
 							
@@ -657,9 +657,9 @@
 							<h3 style="margin-top:30px">Image Analysis and Computer Vision Exercise #1</h3>
 
 							<h5>
-								<span class="badge badge-pill badge-primary">feature extraction</span>
-								<span class="badge badge-pill badge-primary">harris corner</span>
-								<span class="badge badge-pill badge-primary">canny edge</span>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">feature extraction</span>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">harris corner</span>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">canny edge</span>
 							</h5>
 							
 							<hr class="my-4">
@@ -668,7 +668,7 @@
 							
 							<p>The Harris Corner detection utilizes the partial derivatives (found via convolution with Sobel masks), further smoothing, and the construction of an auto-correlation matrix to determine a "Harris Response." This Harris Response is a measure of "corneriness" with negative values representing edges, neutral values representing homogenous areas, and positive values representing corners. </p>
 							
-							<div class="col-sm-12 text-center mx-auto">
+							<div class="col-lg-12 text-center mx-auto">
 								<img src="img/projects/ETH-IACV/IACV-harris-1.png" class="img-fluid" alt=""/>  
 							</div>
 							
@@ -678,7 +678,7 @@
 							
 							<p>This detection method calculates the partial derivatives (again using Sobel masks), and then determines the gradient magnitude and the gradient direction. The gradient magnitude can be thought of as a measure of edginess with larger values corresponding to sharp image transitions and edges. The direction is important in synthesizing and refining the edge properties (such as thickness). </p>
 							
-							<div class="col-sm-12 text-center mx-auto">
+							<div class="col-lg-12 text-center mx-auto">
 								<img src="img/projects/ETH-IACV/IACV-canny-2.png" class="img-fluid" alt=""/>  
 							</div>
 							
@@ -700,17 +700,17 @@
 			
 				<div class="row">
 			
-					<div class="col-sm-2">
+					<div class="col-lg-2">
 						<h1 style="margin-top:15px" class="text-primary" id="DPOC">151-0563</h1>
 					</div>
 					
-					<div class="col-sm-10" style="margin:auto">
+					<div class="col-lg-10" style="margin:auto">
 						
 						<div class="container" style="margin-top:15px">
 							
 							<h1 class="text-center">Policy Iteration, Value Iteration, and Linear Programming</h1>
 							
-							<div class="col-sm-6" style="margin:auto">
+							<div class="col-lg-6" style="margin:auto">
 								<img src="img/projects/ETH-DPOC/baseMap.png" class="img-fluid" alt=""/>  
 							</div>
 							
@@ -719,10 +719,10 @@
 							<h3 style="margin-top:30px">Dynamic Programming and Optimal Control Exercise</h3>
 
 							<h5>
-								<span class="badge badge-pill badge-primary">Bellman equation</span>
-								<span class="badge badge-pill badge-primary">policy iteration</span>
-								<span class="badge badge-pill badge-primary">value iteration</span>
-								<span class="badge badge-pill badge-primary">linear programming</span>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">Bellman equation</span>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">policy iteration</span>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">value iteration</span>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">linear programming</span>
 							</h5>
 							
 							<hr class="my-4">
@@ -733,7 +733,7 @@
 							
 							<p>Below shows the the results of the three methods. The colour represents the found optimal cost, while the arrows represent the optimal control input. We see that the optimal costs are the same for each method, but the methods from different optimal policies. The Bellman Equation guarantees a unique optimal cost, but not a unique optimal policy.</p>
 							
-							<div class="col-sm-12" style="margin:auto">
+							<div class="col-lg-12" style="margin:auto">
 								<img src="img/projects/ETH-DPOC/DPOC.gif" class="img-fluid" alt=""/> 
 							</div>
 							
@@ -743,7 +743,7 @@
 							
 							<p>$$ V_{l+1}(i) = \min_{u \in U(i)} \left( q(i,u) + \sum_{j=1}^{n}P_{ij}(u)V_l (j) \right), \qquad \forall i \in S^+ $$</p>
 							
-							<p>This iterative equation converges to the optimal cost <b>J*</b> after an infinite iterations. In this implementation, we set a threshold at 1e-16, roughly the precision in MATLAB, as close enough to the optimal result and to terminate the recursion.</p>
+							<p>This iterative equation converges to the optimal cost \(J^*\) after an infinite iterations. In this implementation, we set a threshold at 1e-16, roughly the precision in MATLAB, as close enough to the optimal result and to terminate the recursion.</p>
 							
 							<p>$$ ||V_{l+1}(i)-V_{l}(i)|| < 10^{-16}$$</p>
 							
@@ -770,7 +770,7 @@
 							   $$
 							</p>
 							
-							<p>Where x is the vector of variables (to be determined), c and b are vectors of known coefficients and A is a matrix of known coefficients.</p>
+							<p>Where x is a vector of variables (to be determined), \(c\) and \(b\) are vectors of known coefficients and \(A\) is a matrix of known coefficients. In our formulation, x is the optimal cost-to-go \(J^*\), \(A\) is the augmented probability matrix \((I_{\text{n}_\text{u} \times 1}-P)_{(\text{n}_\text{u} \cdot \text{n}_\text{x}) \times \text{n}_\text{x}}\), \(b\) is the stage cost \(\text{G}_{\text{n}_\text{u} \times 1}\) and there are no constraints \(c^T\). </p>
 							
 						</div>
 						
