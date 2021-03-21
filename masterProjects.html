@@ -66,7 +66,10 @@
 			<a class="nav-link active" data-toggle="tab" href="#overview">Overview</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link" data-toggle="tab" href="#pai">Probabilistic Artificial Intelligence</a>
+			<a class="nav-link" data-toggle="tab" href="#dlad">DL for Autonomous Driving</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" data-toggle="tab" href="#pai">Probabilistic AI</a>
 		  </li>
 		  <li class="nav-item">
 			<a class="nav-link" data-toggle="tab" href="#iacv">Image Analysis & Computer Vision</a>
@@ -83,6 +86,30 @@
 				
 					<div class="row" style="margin-bottom:10px">
 					
+						<div class="col-lg-6" style="margin-bottom:10px">
+					
+							<div class="card border-primary mb-3 h-100" style="max-width: 40rem;">
+							  
+								<div class="card-body">
+							  
+									<h5 class="card-title">227-0560: Deep Learning for Autonomous Driving</h5>
+								
+									<p class="card-text">
+										Projects in visualization and deep learning related to the development of autonomous vehicles. 
+									</p>
+									
+									<p class="card-text">
+										<i>	Autonomous driving has moved from the realm of science fiction to a very real possibility during the past twenty years, largely due to rapid developments of deep learning approaches, automotive sensors, and microprocessor capacity. This course covers the core techniques required for building a self-driving car, especially the practical use of deep learning through this theme.</i>
+									</p>
+								
+									<img src="img/projects/ETH-DLAD/DLAD-square.png" alt="" width=100%/>
+								
+								</div>
+							  
+							</div>
+							
+						</div>
+						
 						<div class="col-lg-6" style="margin-bottom:10px">
 					
 							<div class="card border-primary mb-3 h-100" style="max-width: 40rem;">
@@ -106,7 +133,11 @@
 							</div>
 							
 						</div>
-						
+					
+					</div>
+					
+					<div class="row" style="margin-bottom:10px">
+					
 						<div class="col-lg-6" style="margin-bottom:10px">
 						
 							<div class="card border-primary mb-3 h-100" style="max-width: 40rem;">
@@ -131,9 +162,6 @@
 							
 						</div>
 					
-					</div>
-					
-					<div class="row" style="margin-bottom:10px">
 					
 						<div class="col-lg-6" style="margin-bottom:10px">
 					
@@ -163,6 +191,90 @@
 					
 				</div>
 		  
+			</div>
+			
+			<div class="tab-pane fade" id="dlad">
+			
+				<div class="progress" style="margin-top:15px">
+					<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+			
+				<div class="row">
+			
+					<div class="col-lg-2">
+						<h1 style="margin-top:15px" class="text-primary" id="DLAD">227-0560</h1>
+					</div>
+					
+					<div class="col-lg-10" style="margin:auto">
+						
+						<div class="container" style="margin-top:15px">
+							
+							<h1 class="text-center">Vehicle Perception Visualization</h1>
+							
+							<div class="col-lg-6" style="margin:auto">
+								<img src="img/projects/ETH-DLAD/DLAD-square.png" class="img-fluid" alt=""/>  
+							</div>
+							
+							<p class="text-center"><small>3D visualization of the LiDAR point cloud at an intersection. Points are semantically segmented and bounding boxes for identified cars are drawn in green.</small></p>
+							
+							<h3 style="margin-top:30px">Project #1: Understanding Multimodal Driving Data</h3>
+
+							<h5>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">LiDAR</span>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">cameras</span>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">motion compensation</span>
+								<span class="btn badge-pill btn-light btn-sm disabled" style="margin-top:5px">spatial transforms</span>
+							</h5>
+							
+							<hr class="my-4">
+
+							<p><i>The bird’s eye view (BEV) is an elevated view of a scene from directly above. Although BEV brings information loss during projection and discretization, crucially it preserves the metric space.</i></p>
+							
+							<p>While point clouds are excellent at acquiring spacial information, their representations can be sparse. A bird's eye view may give a better understanding of the situation a vehicle is in. Specifically, a vehicle can be thought of as acting within a two dimensional plane, so the x-y map (BEV) provides important information about the surrounding space. </p>
+							
+							<p>The point cloud x and y coordinates are first discretized into bins of 0.2m x 0.2m. Once discretized, the reflectance value  of each point is used to get the intensity of each pixel by multiplying by 255, since the reflectance must be mapped from [0, 1] to the pixel intensity in [0, 255]. If two points occupy the same pixel, meaning the pixel coordinates of the two points are the same, the point with the higher reflectance value is kept.
+</p>
+							
+							<div class="col-lg-6" style="margin:auto">
+								<img src="img/projects/ETH-DLAD/E1/DLAD-E1-1.png" class="img-fluid" alt=""/> 
+							</div>
+							
+							<p class="text-center"><small>BEV of the point cloud information</small></p>
+							
+							<p>However, perception with autonomous vehicles also often rely on cameras and image projections of the scene around them. Being able to visualize from the ego-centric view of the vehicle through its cameras is important for understanding the perception capabilities of the vehicle. Combining the different types of data available, from the LiDAR point cloud to the identified objects, helps unify our understanding of the vehicle's perception. Below we see the point cloud projected on top of the image, requiring some known rigid transformations between the LiDAR frame to the camera frame. The coordinates and dimensions of the identified objects can be similarly transformed and projected onto the image. </p>
+							
+							<div class="col-lg-10" style="margin:auto">
+								<img src="img/projects/ETH-DLAD/E1/DLAD-E1-2.png" class="img-fluid" alt=""/> 
+							</div>
+							
+							<p class="text-center"><small>Semantically segmented point cloud and bounding box overlay on image</small></p>
+							
+							<div class="col-lg-10" style="margin:auto">
+								<img src="img/projects/ETH-DLAD/E1/DLAD-E1-4.png" class="img-fluid" alt=""/> 
+							</div>
+							
+							<p class="text-center"><small>Approximate Laser IDs segmented by angle approximation (azimuth) to visualize height</small></p>
+							
+							<p>Vehicles, however, are also in motion. Since LiDAR sensors are based on time-of-flight, you have to accomodate and be able to unskew the retrieved points based on the motion of the vehicle. Correcting the generated 3D points allows for more accurate projection onto the image. Utilizing the known motion relative to when the image was taken, the points can be transformed so the projection lines us.</p>
+							
+							<div class="col-lg-10" style="margin:auto">
+								<img src="img/projects/ETH-DLAD/E1/DLAD-E1-6.png" class="img-fluid" alt=""/> 
+							</div>
+							
+							<p class="text-center"><small>Original projection of point cloud onto image with depth information (no correction)</small></p>
+							
+							<div class="col-lg-10" style="margin:auto">
+								<img src="img/projects/ETH-DLAD/E1/DLAD-E1-5.png" class="img-fluid" alt=""/> 
+							</div>
+							
+							<p class="text-center"><small>Unskewed projection of point cloud onto image with depth information (with correction)</small></p>
+							
+						</div>
+						
+					</div>
+					
+				</div>
+				
 			</div>
 			
 			<div class="tab-pane fade" id="pai">
@@ -776,12 +888,12 @@
 						
 					</div>
 				
+				</div>
+			
 			</div>
 			
 		</div>
-			
 	</div>
-  </div>
 </div>
 
 </main>
