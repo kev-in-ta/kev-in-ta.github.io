@@ -1,0 +1,31 @@
+<div class="dark-mode-toggle">
+    <p id="toggle" class="fas fa-moon" style="font-size: 35px"></p>
+</div>
+<h1 class="home"><a href="/">{{ .Site.Params.name }}</a></h1>
+<div class="sub-nav">
+    <a href="/posts" class="menu-item">
+		<i class="fas fa-bookmark"></i>
+		blog
+	</a>
+	<a href="/publications" class="menu-item">
+		<i class="fas fa-pen-nib"></i>
+		pubs
+	</a>
+    <a href="/resume.pdf" target="_blank" class="menu-item">
+		<i class="fas fa-user-circle"></i>
+		resume
+	</a>
+	<a href="/cv.pdf" target="_blank" class="menu-item">
+		<i class="fas fa-school"></i>
+		cv
+	</a>
+    <a href={{ .Site.Params.github }} target="_blank" class="menu-item">
+		<i class="fab fa-github"></i>
+	</a>
+	<a href={{ .Site.Params.linkedin }} target="_blank" class="menu-item">
+		<i class="fab fa-linkedin-in"></i>
+	</a>
+	<a href={{ .Site.Params.scholar }} target="_blank" class="menu-item">
+		<i class="fas fa-graduation-cap"></i>
+	</a>
+</div>

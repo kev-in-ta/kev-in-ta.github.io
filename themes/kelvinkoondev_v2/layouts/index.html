@@ -1,0 +1,24 @@
+{{define "head"}} {{ partial "head/head.html" . }} {{end}} {{ define "main" }}
+
+<!-- Personal Bio -->
+<div class="bio">        
+	{{.Content}}
+</div>
+<!-- Work Experience -->
+<h2>
+    <span class="header">Work Experience</span>
+</h2>
+<div class="work">{{partial "jobs/jobs.html" .}}</div>
+<!-- Academia -->
+<h2>
+<h2>
+    <span class="header">Academia</span>
+</h2>
+<div class="work">{{partial "jobs/academia.html" .}}</div>
+<!-- Projects -->
+<h2>
+    <span class="header">Projects</span>
+</h2>
+<div class="projects">{{partial "projects/projects.html" .}}</div>
+
+{{ end }}

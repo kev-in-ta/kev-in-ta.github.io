@@ -1,0 +1,29 @@
+{{ define "main" }}
+<h2>
+    <span class="header">{{ .Title }}</span>
+</h2>
+{{ range .Pages.ByPublishDate.Reverse }}
+<table class="posts-info">
+    <tr>
+        <td class="post-title">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </td>
+        <td class="post-date">
+            <p>{{ .Date | time.Format ":date_short" }}</p>
+        </td>
+        </tr>
+        <tr>
+            <td class="post-tags">
+                [
+                {{ with .Params.tags }} {{ range $i, $t :=. }}{{ if $i }},{{ end }} {{ $href := print (absURL "tags/") (urlize .) }}
+                <a href="{{ $href }}"
+                    >{{ . }}</a
+                >
+                {{ end }} {{ end }}
+                ]
+            </td>
+        </tr>
+    </tr>
+</table>
+
+{{ end }} {{ end }}

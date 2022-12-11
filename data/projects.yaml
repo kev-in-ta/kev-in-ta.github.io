@@ -1,0 +1,19 @@
+- name: UBC Supermileage
+  project: https://supermileage.ca
+  desc: Ultra-efficient vehicles competing in international fuelathons
+  links:
+      - link_name: media
+        link: https://www.youtube.com/watch?v=t_j9rSyCyUo
+      - link_name: press
+        link: https://bc.ctvnews.ca/ubc-team-s-fuel-efficient-car-takes-2nd-place-at-california-competition-1.4373169
+
+- name: Attentiv Medical
+  project: https://www.attentivmedical.com/
+  desc: Instrumented IV catheter concept for extravasation prevention
+  links:
+      - link_name: paper
+        link: https://ieeexplore.ieee.org/document/9871840
+      - link_name: media
+        link: https://www.youtube.com/watch?v=FXWrNxUOlpI
+      - link_name: press
+        link: https://www.jamesdysonaward.org/en-ca/news/james-dyson-award-2020-national-winners-announced/

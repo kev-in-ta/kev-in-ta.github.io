@@ -1,0 +1,433 @@
+/*
+                        _______
+                       /       \
+                      .==.    .==.
+                     ((  ))==((  ))
+                    / "=="    "=="\
+                   /____|| || ||___\
+       ________     ____    ________  ___    ___
+       |  ___  \   /    \   |  ___  \ |  |  /  /
+       |  |  \  \ /  /\  \  |  |  \  \|  |_/  /
+       |  |   )  /  /__\  \ |  |__/  /|  ___  \
+       |  |__/  /  ______  \|  ____  \|  |  \  \
+_______|_______/__/ ____ \__\__|___\__\__|___\__\____
+|  ___  \ |  ____/ /    \   |  ___  \ |  ____|  ___  \
+|  |  \  \|  |___ /  /\  \  |  |  \  \|  |___|  |  \  \
+|  |__/  /|  ____/  /__\  \ |  |   )  |  ____|  |__/  /
+|  ____  \|  |__/  ______  \|  |__/  /|  |___|  ____  \
+|__|   \__\____/__/      \__\_______/ |______|__|   \__\
+                https://darkreader.org
+*/
+
+/*! Dark reader generated CSS | Licensed under MIT https://github.com/darkreader/darkreader/blob/main/LICENSE */
+
+/* User-Agent Style */
+html {
+    background-color: #2a2c2e !important;
+}
+html {
+    color-scheme: dark !important;
+}
+html, body {
+    background-color: #2a2c2e;
+}
+html, body {
+    border-color: #988f7f;
+    color: #ffffff;
+}
+a {
+    color: #4bbdff;
+}
+table {
+    border-color: #737b7f;
+}
+::placeholder {
+    color: #e5ddd0;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: #5b5f0d !important;
+    color: #ffffff !important;
+}
+::-webkit-scrollbar {
+    background-color: #343738;
+    color: #ddd4c7;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #61676a;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #767f84;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: #646c6f;
+}
+::-webkit-scrollbar-corner {
+    background-color: #2a2c2e;
+}
+* {
+    scrollbar-color: #61676a #343738;
+}
+::selection {
+    background-color: #0d6adb !important;
+    color: #ffffff !important;
+}
+::-moz-selection {
+    background-color: #0d6adb !important;
+    color: #ffffff !important;
+}
+
+/* Invert Style */
+.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_text > img[src^="https://www.gstatic.com/images/branding/googlelogo"], span[data-href^="https://www.hcaptcha.com/"] > #icon, #bit-notification-bar-iframe, ::-webkit-calendar-picker-indicator {
+    filter: invert(100%) hue-rotate(180deg) brightness(135%) contrast(80%) !important;
+}
+
+/* Variables Style */
+:root {
+   --darkreader-neutral-background: #242627;
+   --darkreader-neutral-text: #ffffff;
+   --darkreader-selection-background: #0d6adb;
+   --darkreader-selection-text: #ffffff;
+}
+
+/* Modified CSS */
+.menu-item {
+    color: rgb(195, 149, 255);
+    border-bottom-color: currentcolor;
+}
+.menu-item:hover {
+    color: rgb(255, 114, 151);
+    border-bottom-color: currentcolor;
+}
+.home a {
+    color: rgb(255, 255, 255);
+    border-bottom-color: currentcolor;
+}
+.home a:hover {
+    color: rgb(255, 114, 151);
+    border-bottom-color: currentcolor;
+}
+.header {
+    background-color: rgba(13, 13, 13, 0);
+    background-image: linear-gradient(rgba(42, 44, 46, 0) 60%,
+    rgb(145, 131, 13) 50%);
+}
+.job-name a {
+    color: rgb(195, 149, 255);
+    border-bottom-color: currentcolor;
+}
+.job-name a:hover {
+    color: rgb(255, 114, 151);
+    border-bottom-color: currentcolor;
+}
+.job-team {
+    color: rgba(255, 255, 255, 0.6);
+}
+.project-name a {
+    color: rgb(195, 149, 255);
+    border-bottom-color: currentcolor;
+}
+.project-name a:hover {
+    color: rgb(255, 114, 151);
+    border-bottom-color: currentcolor;
+}
+.pub-name {
+    color: rgb(195, 149, 255);
+    border-bottom-color: currentcolor;
+}
+.pub-conf {
+    color: rgb(195, 149, 255);
+}
+.pub-abstract {
+    color: rgba(255, 255, 255, 0.6);
+}
+.post-quote {
+    border-left-color: rgb(118, 71, 191);
+}
+.post-title a {
+    color: rgb(195, 149, 255);
+    border-bottom-color: currentcolor;
+}
+.post-title a:hover {
+    color: rgb(255, 114, 151);
+    border-bottom-color: currentcolor;
+}
+.post-tags a {
+    border-bottom-color: currentcolor;
+    color: rgba(255, 255, 255, 0.6);
+}
+.post-tags a:hover {
+    border-bottom-color: currentcolor;
+}
+.post-detail-date {
+    color: rgba(255, 255, 255, 0.6);
+}
+.toc-header {
+    background-color: rgba(13, 13, 13, 0);
+    background-image: linear-gradient(rgba(42, 44, 46, 0) 60%,
+    rgb(89, 61, 138) 50%);
+}
+.highlight {
+    background-color: rgba(66, 70, 72, 0.3);
+}
+.dark-mode-toggle {
+    color: rgb(214, 184, 255);
+}
+li > a {
+    background-color: rgba(66, 70, 72, 0.3);
+}
+li > a:hover {
+    color: rgb(255, 114, 151);
+    border-bottom-color: rgb(188, 37, 67);
+}
+a {
+    color: rgb(195, 149, 255);
+    text-decoration-color: currentcolor;
+    border-bottom-color: rgb(118, 71, 191);
+}
+a:hover {
+    color: rgb(255, 114, 151);
+    border-bottom-color: rgb(188, 37, 67);
+}
+blockquote {
+    border-left-color: rgb(118, 71, 191);
+}
+hr {
+    background-color: rgb(99, 60, 159);
+    border-color: currentcolor;
+}
+.chroma {
+    color: rgb(255, 255, 255);
+    background-color: rgb(47, 49, 50);
+}
+.chroma .err {
+    color: rgb(255, 133, 234);
+    background-color: rgb(42, 13, 29);
+}
+.chroma .lntd {
+    border-color: currentcolor;
+}
+.chroma .lntable {
+    border-color: currentcolor;
+}
+.chroma .hl {
+    background-color: rgb(87, 87, 13);
+}
+.chroma .lnt {
+    color: rgb(197, 186, 169);
+}
+.chroma .ln {
+    color: rgb(197, 186, 169);
+}
+.chroma .k {
+    color: rgb(137, 255, 255);
+}
+.chroma .kc {
+    color: rgb(137, 255, 255);
+}
+.chroma .kd {
+    color: rgb(137, 255, 255);
+}
+.chroma .kn {
+    color: rgb(255, 77, 163);
+}
+.chroma .kp {
+    color: rgb(137, 255, 255);
+}
+.chroma .kr {
+    color: rgb(137, 255, 255);
+}
+.chroma .kt {
+    color: rgb(137, 255, 255);
+}
+.chroma .na {
+    color: rgb(224, 255, 91);
+}
+.chroma .nc {
+    color: rgb(224, 255, 91);
+}
+.chroma .no {
+    color: rgb(137, 255, 255);
+}
+.chroma .nd {
+    color: rgb(224, 255, 91);
+}
+.chroma .ne {
+    color: rgb(224, 255, 91);
+}
+.chroma .nf {
+    color: rgb(224, 255, 91);
+}
+.chroma .nx {
+    color: rgb(224, 255, 91);
+}
+.chroma .nt {
+    color: rgb(255, 77, 163);
+}
+.chroma .l {
+    color: rgb(214, 154, 255);
+}
+.chroma .ld {
+    color: rgb(255, 255, 151);
+}
+.chroma .s {
+    color: rgb(255, 255, 151);
+}
+.chroma .sa {
+    color: rgb(255, 255, 151);
+}
+.chroma .sb {
+    color: rgb(255, 255, 151);
+}
+.chroma .sc {
+    color: rgb(255, 255, 151);
+}
+.chroma .dl {
+    color: rgb(255, 255, 151);
+}
+.chroma .sd {
+    color: rgb(255, 255, 151);
+}
+.chroma .s2 {
+    color: rgb(255, 255, 151);
+}
+.chroma .se {
+    color: rgb(214, 154, 255);
+}
+.chroma .sh {
+    color: rgb(255, 255, 151);
+}
+.chroma .si {
+    color: rgb(255, 255, 151);
+}
+.chroma .sx {
+    color: rgb(255, 255, 151);
+}
+.chroma .sr {
+    color: rgb(255, 255, 151);
+}
+.chroma .s1 {
+    color: rgb(255, 255, 151);
+}
+.chroma .ss {
+    color: rgb(255, 255, 151);
+}
+.chroma .m {
+    color: rgb(214, 154, 255);
+}
+.chroma .mb {
+    color: rgb(214, 154, 255);
+}
+.chroma .mf {
+    color: rgb(214, 154, 255);
+}
+.chroma .mh {
+    color: rgb(214, 154, 255);
+}
+.chroma .mi {
+    color: rgb(214, 154, 255);
+}
+.chroma .il {
+    color: rgb(214, 154, 255);
+}
+.chroma .mo {
+    color: rgb(214, 154, 255);
+}
+.chroma .o {
+    color: rgb(255, 77, 163);
+}
+.chroma .ow {
+    color: rgb(255, 77, 163);
+}
+.chroma .c {
+    color: rgb(213, 205, 190);
+}
+.chroma .ch {
+    color: rgb(213, 205, 190);
+}
+.chroma .cm {
+    color: rgb(213, 205, 190);
+}
+.chroma .c1 {
+    color: rgb(213, 205, 190);
+}
+.chroma .cs {
+    color: rgb(213, 205, 190);
+}
+.chroma .cp {
+    color: rgb(213, 205, 190);
+}
+.chroma .cpf {
+    color: rgb(213, 205, 190);
+}
+.chroma .gd {
+    color: rgb(255, 77, 163);
+}
+.chroma .gi {
+    color: rgb(224, 255, 91);
+}
+.chroma .gu {
+    color: rgb(213, 205, 190);
+}
+.fa-border {
+    border-color: rgb(77, 82, 84);
+}
+.fa-inverse {
+    color: rgb(255, 255, 255);
+}
+.sr-only {
+    border-color: currentcolor;
+}
+.fa-border {
+    border-color: rgb(77, 82, 84);
+}
+.fa-inverse {
+    color: rgb(255, 255, 255);
+}
+.sr-only {
+    border-color: currentcolor;
+}
+
+/* Override Style */
+.vimvixen-hint {
+    background-color: #a27200 !important;
+    border-color: #ffe224 !important;
+    color: #ffffff !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}
+#edge-translate-panel-body,
+.MuiTypography-body1,
+.nfe-quote-text {
+    color: var(--darkreader-neutral-text) !important;
+}
+gr-main-header {
+    background-color: #1f5364 !important;
+}
+.tou-z65h9k,
+.tou-mignzq,
+.tou-1b6i2ox,
+.tou-lnqlqk {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.tou-75mvi {
+    background-color: #11343f !important;
+}
+.tou-ta9e87,
+.tou-1w3fhi0,
+.tou-1b8t2us,
+.tou-py7lfi,
+.tou-1lpmd9d,
+.tou-1frrtv8,
+.tou-17ezmgn {
+    background-color: #191919 !important;
+}
+.tou-uknfeu {
+    background-color: #372710 !important;
+}
+.tou-6i3zyv {
+    background-color: #2b7790 !important;
+}
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }

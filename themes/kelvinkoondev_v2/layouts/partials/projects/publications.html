@@ -1,0 +1,28 @@
+{{ range .Pages }}
+<table class="pub-info">
+    <tr>
+        <td class="pub-name">
+            {{ .Params.title }}
+        </td>
+    </tr>
+	</tr>
+		<td class="pub-conf">
+			<i class="fa fa-map-pin"></i> {{ .Params.conf }}
+		</td>
+	<tr>
+	<tr>
+		<td class="pub-authors">
+			{{ .Params.names }}
+		</td>
+	</tr>
+	<tr>
+		<td class="pub-links">
+		{{- range .Params.links -}}
+		<a class="project-link" href="{{.link}}" target="_blank"
+			>[{{.link_name}}]</a>
+		{{- end -}}
+		</td>
+	</tr>
+</table>
+<p class="pub-abstract">{{ .Params.abstract }}</p>
+{{ end }}

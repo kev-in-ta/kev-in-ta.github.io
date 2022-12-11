@@ -1,0 +1,19 @@
+{{- range $.Site.Data.projects -}}
+<table class="project-info">
+    <tr>
+        <td class="project-name">
+            <a href="{{ .project }}" target="_blank">{{ .name }}</a>
+        </td>
+        <td class="project-links">
+            {{- range .links -}}
+            <a class="project-link" href="{{.link}}" target="_blank"
+                >{{.link_name}}</a
+            >
+            {{- end -}}
+        </td>
+    </tr>
+    <tr>
+        <td class="project-desc">{{ .desc }}</td>
+    </tr>
+</table>
+{{ end }}

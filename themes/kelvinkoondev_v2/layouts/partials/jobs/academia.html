@@ -1,0 +1,16 @@
+{{- range $.Site.Data.academia -}}
+<table class="job-info">
+    <tr>
+        <td class="job-name">
+            <a href="{{ .link }}" target="_blank">{{ .name }}</a>
+        </td>
+        <td class="job-date">{{ .date }}</td>
+    </tr>
+    <tr>
+        <td class="job-title">{{ .title }}</td>
+    </tr>
+    <tr>
+        <td class="job-team">{{ .team }}</td>
+    </tr>
+</table>
+{{ end }}
