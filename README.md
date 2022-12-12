@@ -1,6 +1,6 @@
 # kev-in-ta.github.io
 
-![Build GH Pages](https://github.com/kelvinkoon/kelvinkoon.github.io/actions/workflows/gh-pages.yml/badge.svg)
+![Build GH Pages](https://github.com/kev-in-ta/kev-in-ta.github.io/actions/workflows/gh-pages.yml/badge.svg)
 
 Personal site and blog. Built with Hugo.
 
