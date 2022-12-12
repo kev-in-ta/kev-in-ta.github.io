@@ -8,7 +8,7 @@
 <table class="posts-info">
     <tr>
         <td class="post-title">
-            <a href="{{ .Page.RelPermalink }}">{{ .Title }}</a>
+            <a href="{{ .Page.Permalink }}">{{ .Title }}</a>
         </td>
         <td class="post-date">
             <p>{{ .Date | time.Format ":date_short" }}</p>
@@ -17,7 +17,7 @@
         <tr>
             <td class="post-tags">
                 [
-                {{ with .Params.tags }} {{ range $i, $t :=. }}{{ if $i }},{{ end }} {{ $href := print (relURL "tags/") (urlize .) }}
+                {{ with .Params.tags }} {{ range $i, $t :=. }}{{ if $i }},{{ end }} {{ $href := print (absURL "tags/") (urlize .) }}
                 <a href="{{ $href }}"
                     >{{ . }}</a
                 >
