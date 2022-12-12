@@ -8,7 +8,7 @@
 <table class="posts-info">
     <tr>
         <td class="post-title">
-            <a href="{{ .Page.Permalink }}">{{ .Title }}</a>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         </td>
         <td class="post-date">
             <p>{{ .Date | time.Format ":date_short" }}</p>

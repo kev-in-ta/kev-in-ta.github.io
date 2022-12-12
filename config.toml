@@ -1,4 +1,4 @@
-baseURL = 'kev-in-ta.github.io'
+baseURL = 'https://kev-in-ta.github.io'
 languageCode = 'en-us'
 title = 'kev-in-ta.github.io'
 theme = "kelvinkoondev_v2"
