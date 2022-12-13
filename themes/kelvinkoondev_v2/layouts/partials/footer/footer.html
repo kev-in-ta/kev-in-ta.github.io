@@ -1,13 +1,21 @@
 <p class="copyright">made with hugo, © 2022</p>
 <p class="footer-links">
-    <a
-        class="source"
-        href={{ .Site.Params.source }}
-        target="_blank"
-        >
-		<i class="fas fa-code"></i>
-		source
-		</a
-    >
-
+    <a class="source" href={{ .Site.Params.source }} target="_blank">
+        <i class="fas fa-code"></i>
+    </a>
+    <a class="source" href={{ print (absURL "posts/index.xml") }} target="_blank">
+        <i class="fas fa-rss-square"></i>
+    </a>
+    <a class="source" href={{ .Site.Params.github }} target="_blank">
+        <i class="fab fa-github"></i>
+    </a>
+    <a class="source" href={{ .Site.Params.linkedin }} target="_blank">
+        <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a class="source" href={{ .Site.Params.scholar }} target="_blank">
+        <i class="fas fa-graduation-cap"></i>
+    </a>
+    <a class="source" href={{ .Site.Params.instagram }} target="_blank">
+        <i class="fab fa-instagram"></i>
+    </a>
 </p>
