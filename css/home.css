@@ -21,6 +21,7 @@ img {
 
 .menu-item {
     font-size: 15px;
+    font-weight: normal;
     color: #593196;
     padding: 1px 8px 1px 8px;
     border-bottom: none;
@@ -28,6 +29,7 @@ img {
 
 .menu-item:hover {
     font-size: 15px;
+    font-weight: normal;
     color: #e64a6a;
     padding: 1px 8px 1px 8px;
     border-bottom: none;
@@ -145,6 +147,11 @@ img {
 
 .project-link {
     margin: 0px 4px 0px 4px;
+    font-weight: normal;
+}
+
+.project-link:hover {
+    font-weight: normal;
 }
 
 .project-desc {
@@ -178,7 +185,12 @@ img {
 
 .pub-links {
     font-family: "Open Sans", sans-serif;
+    font-weight: normal;
     font-size: 13px;
+}
+
+.pub-links a:hover {
+    font-weight: normal;
 }
 
 .pub-abstract {
@@ -286,10 +298,6 @@ img {
     margin-right: 3px;
 }
 
-.twitter {
-    margin-left: 3px;
-}
-
 .highlight {
     background-color: rgba(220, 220, 220, 0.3);
     padding: 5px 2px 3px 5px;
@@ -341,6 +349,7 @@ a {
     font-family: "Open Sans", sans-serif;
     font-size: 15px;
     color: #593196;
+    font-weight: bold;
     text-decoration: none;
     border-bottom: 0px solid #593196;
     transition: all 0.3s ease;
@@ -349,6 +358,7 @@ a {
 a:hover {
     font-family: "Open Sans", sans-serif;
     font-size: 15px;
+    font-weight: bold;
     color: #e64a6a;
     border-bottom: 0px solid #e64a6a;
 }
