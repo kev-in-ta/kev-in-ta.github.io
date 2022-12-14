@@ -4,7 +4,7 @@
 
 Personal site and blog. Built with Hugo.
 
-Unabashedly yoinked from [Kelvin Koon](https://github.com/kelvinkoon). [[Source]](https://github.com/kelvinkoon/kelvinkoon.github.io/)
+Theme unabashedly yoinked from [Kelvin Koon](https://github.com/kelvinkoon). [[Source]](https://github.com/kelvinkoon/kelvinkoon.github.io/)
 
 The site is deployed at [here](https://kev-in-ta.github.io).
 

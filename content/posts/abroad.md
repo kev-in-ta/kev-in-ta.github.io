@@ -1,6 +1,6 @@
 ---
 title: "Studying Abroad in a Pandemic"
-date: 2022-12-11
+date: 2022-12-13
 tags: ["academic", "ethz"]
 draft: false
 ---
@@ -17,11 +17,11 @@ But there is one before and after in 2020 that defines such a moment for many of
 
 It was in these conditions I left for Switzerland. While the world stood still, I stepped foot halfway across the world in a new country, at a new school, far far away from home.
 
-![Welcome to Switzerland.](/images/swiss-1.jpg)
+![Welcome to Switzerland.](/images/swiss-1.jpg "Pizol 5-Seen Wanderung (5-Lakes Hike). PC: Jessica Bo")
 
 ## Studying
 
-ETH Zurich is a prestigious school. It is often top-ranked in the world for their engineering and computer science programs [[1](https://www.topuniversities.com/university-rankings/university-subject-rankings/2022/engineering-technology),[2](https://www.timeshighereducation.com/world-university-rankings/2023/subject-ranking/computer-science)]. What are they doing right?
+ETH Zurich is a highly prestigious school. It's often top-ranked in the world, or close to, for their engineering and computer science programs [[1](https://www.topuniversities.com/university-rankings/university-subject-rankings/2022/engineering-technology),[2](https://www.timeshighereducation.com/world-university-rankings/2023/subject-ranking/computer-science)]. So what are they doing right?
 
 ### Course Selection
 
@@ -51,19 +51,23 @@ ETH provides the opportunity to conduct research though a semester project and a
 
 ### Semester Project
 
-![Mutual information optimization used to calibrate lidar to event camera.](/images/sp-ex.png)
+![Wow, points projected on an image!](/images/sp-ex.png "Project lidar points on accumulated event map after sensor calibration.")
 
 I completed my semester project with the [Image Communication and Understanding (ICU) group](https://icu.ee.ethz.ch/) at the [Computer Vision Lab](https://vision.ee.ethz.ch/). My semester project involved calibrating a sensor suite for a vehicle-based data collection platform. This work naturally built off of my internship experience at [Cruise](https://getcruise.com/), where I focused on validation strategies and process development for autonomous vehicle sensor calibration.
 
-For this project, I had the opportunity to extend my expertise from individual sensors (intrinsic calibration) to multi-sensor systems (extrinsic calibration). I also built novel methods for emerging sensors by calibrating an [event camera](https://en.wikipedia.org/wiki/Event_camera) to the rest of the sensor suite (rgb camera, radar, lidar). You can read more about my semester project in [my report](/papers/sp-multisensor_calibration.pdf) and in this [ArXiv pre-print](https://arxiv.org/abs/2207.01009v4).
+For this project, I had the opportunity to extend my expertise from individual sensors (intrinsic calibration) to multi-sensor systems (extrinsic calibration). I also built novel methods for emerging sensors by calibrating an [event camera](https://en.wikipedia.org/wiki/Event_camera) to the rest of the sensor suite (rgb camera, radar, lidar). This choice of semester project allowed me to solidify my expertise with calibration and define a niche in my knowledge going into the future. 
+
+You can read more about my semester project in [my report](/papers/sp-multisensor_calibration.pdf) and in this [ArXiv pre-print](https://arxiv.org/abs/2207.01009v4).
 
 ### Master Thesis
 
-![Uncertainty estimation comparison between learned and ground-truth errors.](/images/mt-ex.png)
+![The colour maps took me too long to choose.](/images/mt-ex.png "A comparison between learned and ground-truth depth maps and error maps.")
 
 For my master thesis, I completed my work with the same research group, under a different set of supervisors. My master thesis involved leveraging online sensor-agnostic uncertainty estimation to improve the results of neural implicit SLAM, particularly in multi-sensor conditions. This was a really fitting opportunity; I got to continue working in the realm of multi-sensor systems while also having my first serious dive into a deep learning-based project.
 
-There were plenty of challenges on the way, compounded by my lack of experience. At that point, I had taken a few deep learning courses where I implemented various modules within existing frameworks. I had the requisite knowledge from my courses, but I still lacked some of the more practical experience in improving upon a pipeline. Throughout the project, I learned a lot about SLAM systems, approaches to R&D, and building deep learning models as a whole. I’m really happy with my learning outcomes for this project and, if you’re interested in learning more, you can read my [master thesis](/papers/mt-online_sensor_agnostic_uncertainty_learning.pdf).
+There were plenty of challenges on the way, compounded by my lack of experience. At that point, I had taken a few deep learning courses where I implemented various modules within existing frameworks. I had the requisite knowledge from my courses, but I still lacked some of the more practical experience in improving upon a pipeline. Throughout the project, I learned a lot about SLAM systems, approaches to R&D, and building deep learning models as a whole. I’m really happy with my learning outcomes for this project as I was able to build new skills on top of my existing experiences and establish firmer foundations in 3D vision tasks.
+
+If you’re interested in learning more, you can read my [master thesis](/papers/mt-online_sensor_agnostic_uncertainty_learning.pdf).
 
 ### My Experience doing Research
 
@@ -89,4 +93,6 @@ I don’t have many regrets for choosing to pursue my master’s. But my feeling
 
 After 2 years and 3 months, I’ve finished all my requirements for my masters. No more classes. No more stress over the success or failure of research experiments. I’m finally done. And, more than I care to admit, I’m grateful to be home again.
 
-![Cya Switzerland.](/images/swiss-2.jpg)
+
+
+![Cya Switzerland.](/images/swiss-2.jpg "Views of the Matterhorn, somewhere outside of Zermatt. PC: Wilson Hsu")
