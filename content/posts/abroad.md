@@ -5,7 +5,7 @@ tags: ["academic", "ethz"]
 draft: false
 ---
 
-**Deciding to do a master’s is both easy and hard.** There’s a familiarity in pursuing further education when you’ve done the thirteen or so years of mandatory schooling and four more years for a bachelor’s (or six like me if you took your time). It’s easy to romanticize the pursuit of knowledge. However, I wasn’t the most excited about forgoing income and I wasn’t quite prepared for the esoteric quirks of academia. So what was it like to go to grad school? Let me share with you my experience over these last 2 years in Switzerland.
+**Deciding to do a master’s is both easy and hard.** There’s a familiarity in pursuing further education when you’ve done the thirteen or so years of mandatory schooling and four more years for a bachelor’s (or six like me if you took your time). It’s easy to romanticize the pursuit of knowledge. However, you also don't make much (if any) money doing a master's and many of the quirks of academia are genuinely bizarre. So what was it like to go to grad school? Let me share with you my experience over these last 2 years in Switzerland.
 
 ## Prologue
 
