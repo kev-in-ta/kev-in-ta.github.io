@@ -5,13 +5,13 @@ tags: ["academic", "ethz"]
 draft: false
 ---
 
-**Deciding to do a master’s is both easy and hard.** There’s a familiarity in pursuing further education when you’ve done the thirteen or so years of mandatory schooling and four more years for a bachelor’s (or six like me if you took your time). It’s easy to romanticize the pursuit of knowledge. However, you also don't make much (if any) money doing a master's and many of the quirks of academia are genuinely bizarre. So what was it like to go to grad school? Let me share with you my experience over these last 2 years in Switzerland.
+**Deciding to do a master’s is both easy and hard.** There’s a familiarity in pursuing further education when you’ve done the thirteen or so years of mandatory schooling and four more years for a bachelor’s (or six like me if you took your time). It’s easy to romanticize the pursuit of knowledge. On the other hand, you don't make much (if any) money doing a master's and many of the quirks of academia are genuinely bizarre. So what was it like to go to grad school? Let me share with you my experiences over the past 2 years in Switzerland.
 
 ## Prologue
 
-In 2020, I was in my final year of my undergraduate degree, a Bachelor of Applied Science in Mechanical Engineering at the University of British Columbia (UBC). I had applied and was accepted to the Master of Science in Robotics, Systems, and Control program at ETH Zurich. An opportunity to live abroad, to study at an institution at the forefront of its field… There are compelling reasons to take the offer.
+In 2020, I was in my final year of my undergraduate degree, a Bachelor of Applied Science in Mechanical Engineering at the University of British Columbia (UBC). I had applied and was accepted to the Master of Science in Robotics, Systems, and Control program at ETH Zurich. An opportunity to live abroad, to study at an institution at the forefront of its field… There are compelling reasons to take this offer.
 
-Still, I wasn’t sure. The time and commitment and the distance from home were scary thoughts, doubts I needed to get over. How do we decide when we doesn’t know? To make decisions that influence the rest of our lives? Somehow, we manage to do it all the time. This felt like one of those moments that would define a before and after in my life.
+Still, I wasn’t sure. The time and commitment and the distance from home were valid concerns, doubts I needed to get over. How do we decide when we don't know? To make decisions that influence the rest of our lives? Somehow, we manage to do it all the time. This felt like one of those moments that would define a before and after in my life.
 
 But there is one before and after in 2020 that defines such a moment for many of us. A global pandemic abruptly barred global travel, shutdown the routines to which we were accustomed, recentered our world to communicate through text and video. I wrapped up my bachelor’s virtually and the crossed the stage in imagination only. Hardly the triumphant moment I had expected. I felt my life go on pause: competitions cancelled, summer travel plans upended, a job market in uncertain hands. So what else was there to do?
 
@@ -21,19 +21,19 @@ It was in these conditions I left for Switzerland. While the world stood still, 
 
 ## Studying
 
-ETH Zurich is a highly prestigious school. It's often top-ranked in the world, or close to, for their engineering and computer science programs [[1](https://www.topuniversities.com/university-rankings/university-subject-rankings/2022/engineering-technology),[2](https://www.timeshighereducation.com/world-university-rankings/2023/subject-ranking/computer-science)]. So what are they doing right?
+ETH Zurich is a highly prestigious school. It's often top-ranked in the world, or close to, for their engineering and computer science programs [[1](https://www.topuniversities.com/university-rankings/university-subject-rankings/2022/engineering-technology),[2](https://www.timeshighereducation.com/world-university-rankings/2023/subject-ranking/computer-science)]. So... what are they doing right?
 
 ### Course Selection
 
 At ETH, I had the freedom to choose my courses. This process contrasts with the rigid standard timetables of my mechanical engineering degree, where I would typically have had the choice of a single technical elective.
 
-At ETH, I could choose to take courses on robot kinematics, computer vision, deep learning, or more. I could choose which courses to build my foundation and which subjects to explore in more detail. I believe this is a better system; it serves students better. I retained information more easily since I was more interested in the subject matter, and I felt like I had genuine agency over my studies.
+At ETH, I could choose to take courses on robot kinematics, computer vision, control theory, or more. I could choose which courses to build my foundation and which subjects to explore in more detail. I believe this is a better system; it serves students better. I retained information more easily since I was more interested in the subject matter, and I felt like I had genuine agency over my studies.
 
 I also found the instruction at ETH to be mostly well-taught, and more consistently positive compared to my experiences at UBC.
 
 ### Teaching Style
 
-Beyond course selection, there’s a big difference in didactic style between my bachelor’s studies and my master’s. This could be due to the domain difference (mechatronics / hardware-orientated vs. robotics / software-orientated), but I think it also stems from the different philosophies for teaching at UBC and ETH. At ETH, I found myself surprised at the amount of mathematical rigour. Entering my master’s, I was definitely lacking in my understanding of probability. It took some time, but I learned to appreciate this rigour as I acquired genuine understanding as opposed to looser intuitions.
+Beyond course selection, there’s a big difference in didactic style between my bachelor’s studies and my master’s. This could be due to the domain difference (mechatronics / hardware-orientated vs. robotics / software-orientated), but I think it also stems from the different philosophies for teaching at UBC and ETH. At ETH, I found myself surprised at the amount of mathematical rigour. Entering my master’s, I was definitely lacking in my understanding of probability. It took some time, but I learned to appreciate this rigour as I acquired more thorough understanding as opposed to looser intuitions.
 
 On the other hand, I believe UBC does a better job of preparing students for practical work. At ETH, it felt like students are given fewer opportunities to practice true engineering, to learn about the functional tools necessary for doing good engineering work. The courses I took at UBC focused on teaching the ideas and approaches most useful for design, analysis, and development. This built practical intuition. In contrast, my ETH courses aimed to develop more rigorous theory.
 
@@ -45,7 +45,7 @@ Personally, I’m glad to have had both experiences. I find myself able to opera
 
 ## Research
 
-Within North America, there is typically a distinction between a M.Eng., a course-based program, and a M.Sc., a thesis-based program. The robotics master’s at ETH provides a middle-ground between these two approaches by requiring 44 credits related to courses and 38 credits related to research (+8 credits dedicated to an industrial internship). There’s a lot more nuance to differentiating these programs, but this should cover the general gist.
+Within North America, there is typically a distinction between an M.Eng., a course-based program, and an M.Sc., a thesis-based program. The robotics master’s at ETH provides a middle-ground between these two approaches by requiring 44 credits related to courses and 38 credits related to research (+8 credits dedicated to an industrial internship). There’s a lot more nuance to differentiating these programs, but this covers the general gist.
 
 ETH provides the opportunity to conduct research though a semester project and a master thesis. The semester project can be completed full-time in 7 weeks or part-time in 14 weeks. The master thesis is completed over 6 months and comprises the bulk of the research credits (30). I find that providing research opportunities in both a short and long format is beneficial for students to learn to properly scope a project, while also being exposed to a greater range of topics.
 
@@ -69,15 +69,17 @@ There were plenty of challenges on the way, compounded by my lack of experience.
 
 If you’re interested in learning more, you can read my [master thesis](/papers/mt-online_sensor_agnostic_uncertainty_learning.pdf).
 
-### My Experience doing Research
+### The Value of Research
 
-Conducting research is something that requires multi-faceted skills. Beyond coming up with rigorous methods and novel ideas, you also have to be able to communicate them. Manuscript writing is an art unto itself. In my opinion, writing in academia is one of the most esoteric barriers for early researchers. Additionally, you have to be able to read and distill the understanding of the endless prior works. You could drown in the research output of robotics and computer vision papers coming out everyday. Contradiction though it may be, I find research both intrinsically motivating and hopelessly discouraging.
+Contradiction though it may be, I personally find research both intrinsically motivating and hopelessly discouraging. Research can feel very rewarding as you attempt to do something novel and contribute to the corpus of scientific knowledge. At the same time, there are many toxic elements in academia. There's a unhealthy focus on positive results. There are large disparities in resources depending on country or institution (or company). There's a huge demand for skilled labour (i.e. master students) without fair compensation. I often find it hard to reconcile the state of academia. 
 
-Despite these challenges, research skills are transferrable and incredibly important professionally, regardless if you stay in academia or transition to industry. Project-scoping, problem-solving, and decision communication are all critical skills of researchers and engineers. Ultimately, I believe the way ETH balances the studies and research components of its master’s program is genuinely well-done.
+And conducting research is highly skilled work, something that demands multi-faceted skills. Beyond coming up with rigorous methods and novel ideas, you also have to be able to communicate them. Manuscript writing is an art unto itself. In my opinion, writing in academia is one of the most esoteric barriers for early researchers. Additionally, you have to be able to read and distill the major elements of the endless amount of prior works. You could drown in the research output of robotics and computer vision papers coming out everyday. 
+
+Despite these challenges, research skills are transferable and incredibly beneficial professionally, regardless if you stay in academia or transition to industry. Project-scoping, problem-solving, and decision communication are all critical skills of researchers and engineers. These are all skills I further developed in my master's and skills I'm glad to have. Given the circumstances, I believe the way ETH balances the study and research components of its master’s program is as well-balanced as you can get. 
 
 ## Switzerland
 
-Academically, I really appreciate my studies at ETH. I appreciated the education and I appreciated the opportunity to live abroad in Europe. Switzerland itself is a beautiful country with a really high standard of living. The public transportation in Zurich was one of the most impressive I’ve ever used. Can you imagine taking a train for an hour and a half and ending up at some beautiful mountain in the Alps? Welcome to Switzerland.
+Academically, I really appreciate my studies at ETH. I appreciated the education and I appreciated the opportunity to live abroad in Europe. Switzerland itself is a beautiful country with a really high standard of living. The public transportation in Zurich is one of the most impressive I’ve ever used. Can you imagine taking a train for an hour and a half and ending up at some beautiful mountain in the Alps? Welcome to Switzerland.
 
 **There’s a lot to love about Switzerland. But… I never fell in love with Switzerland.**
 
@@ -92,7 +94,5 @@ I don’t think I really gave Switzerland a fair chance. Or rather, I don’t th
 I don’t have many regrets for choosing to pursue my master’s. But my feelings are complicated. There were many times I struggled: from isolation to research frustrations. On the other hand, I had the opportunity to learn at an institution at the cutting edge of research. I got to live in Europe for two years. I travelled, rekindled friendships, and made new acquaintances. I collaborated with former mentors and classmates, published a few papers, and got to work on autonomous vehicles. How cool is that?
 
 After 2 years and 3 months, I’ve finished all my requirements for my masters. No more classes. No more stress over the success or failure of research experiments. I’m finally done. And, more than I care to admit, I’m grateful to be home again.
-
-
 
 ![Cya Switzerland.](/images/swiss-2.jpg "Views of the Matterhorn, somewhere outside of Zermatt. PC: Wilson Hsu")
