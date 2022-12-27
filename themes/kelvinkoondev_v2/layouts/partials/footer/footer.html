@@ -3,7 +3,7 @@
     <a class="source" href={{ .Site.Params.source }} target="_blank">
         <i class="fas fa-code"></i>
     </a>
-    <a class="source" href={{ print (absURL "posts/index.xml") }} target="_blank">
+    <a class="source" href={{ print (relURL "/posts/index.xml") }} target="_blank">
         <i class="fas fa-rss-square"></i>
     </a>
     <a class="source" href={{ .Site.Params.github }} target="_blank">
