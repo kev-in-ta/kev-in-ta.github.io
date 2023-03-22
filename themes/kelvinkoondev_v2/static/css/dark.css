@@ -92,6 +92,9 @@ select:-webkit-autofill {
 }
 
 /* Modified CSS */
+figure {
+    color: rgba(255, 255, 255, 0.6);
+}
 .menu-item {
     color: rgb(195, 149, 255);
     border-bottom-color: currentcolor;

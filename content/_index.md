@@ -2,7 +2,7 @@
 title: Kevin Ta
 ---
 
-Hi, it's Kevin! I'm an incoming Software Developer at Waabi. I graduated from ETH Zurich with a M.Sc. in Robotics Systems and Control. Previously, I completed my Bachelor's at the University of British Columbia in Mechanical Engineering,  specializing in Mechatronics. 
+Hi, it's Kevin! I'm a Software Developer at Waabi working on on-board systems and sensor calibration. I graduated from ETH Zurich with a M.Sc. in Robotics Systems and Control. Previously, I completed my Bachelor's at the University of British Columbia in Mechanical Engineering,  specializing in Mechatronics. 
 
 My professional interests lie in multi-sensor systems, computer vision, and robotics. My research at the [CVL](https://vision.ee.ethz.ch/) focused on deep representation for multi-sensor SLAM and sensor calibration for autonomous vehicles. Previously, I worked on next-generation sensor calibration & development of self-driving cars at [Cruise](https://getcruise.com). 
 
