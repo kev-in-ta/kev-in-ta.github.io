@@ -1,5 +1,5 @@
 - name: UBC Supermileage
-  project: https://supermileage.ca
+  project: http://supermileage.ca
   desc: Ultra-efficient vehicles competing in international fuelathons
   links:
       - link_name: media

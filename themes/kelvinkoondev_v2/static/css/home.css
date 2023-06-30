@@ -399,3 +399,13 @@ hr {
   top: 0.15rem;
   position: relative;
 }
+
+.table-post {
+    border-collapse: collapse;
+    width: 100%;
+  }
+.table-post td {
+    border-top: 1px solid #593196;
+    border-bottom: 1px solid #593196;
+    padding: 0.6rem;
+  }
