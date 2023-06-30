@@ -166,6 +166,15 @@ figure {
 .post-detail-date {
     color: rgba(255, 255, 255, 0.6);
 }
+.table-post {
+    border-collapse: collapse;
+    width: 100%;
+  }
+.table-post td {
+    border-top: 1px solid rgb(195, 149, 255);
+    border-bottom: 1px solid rgb(195, 149, 255);
+    padding: 0.6rem;
+  }
 .toc-header {
     background-color: rgba(13, 13, 13, 0);
     background-image: linear-gradient(rgba(42, 44, 46, 0) 60%,
