@@ -112,9 +112,9 @@ The SAE Supermileage competition used to hold both collegiate and high school di
 
 ## The Future of Fuelathons
 
-While the SAE Supermileage competition is no more, some teams have taken it upon themselves to carry on the tradition of the enduring technical challenge. [Alérion Supermileage](https://alerion-supermileage.com/), aka Université Laval, hosted the [Québec City Supermileage Competition](https://www.facebook.com/groups/1472519369872431/) this past June, running with guidelines similar to the [Shell Eco-Marathon ruleset](https://www.shellecomarathon.com/). I sincerely hope they continue to hold the torch for independent fuelathons so that others may have the same opportunities to learn and compete as I had. Efficiency is a topic that spans so many fields, and though gasoline may not be the future, the lessons will endure for all of those that this competition touched. 
+While the SAE Supermileage competition is no more, some teams have taken it upon themselves to carry on the tradition of the enduring technical challenge. [Alérion Supermileage](https://alerion-supermileage.com/), aka Université Laval, hosted the [Québec City Supermileage Competition](https://www.facebook.com/groups/1472519369872431/) this past June, running with guidelines similar to the [Shell Eco-Marathon ruleset](https://www.shellecomarathon.com/). I hope they can continue to carry the torch for independent fuelathons, spreading the opportunity to learn and design to another class of engineers. Efficiency and optimisation are topics that span so many fields, and though gasoline may not be the future, the lessons we learned will endure for all of those that this competition touched. 
 
-If you're interested in looking at the data, you can find the source for everything [here](/files/SAE.zip).
+If you're interested in looking at the data, you can find the source for everything [here](/files/SAE.zip), originally taken from [[3]](https://www.sae.org/attend/student-events/sae-supermileage/awards-results).
 
 ![2019 UBC Supermileage.](/images/sae-ubc-2.jpg "Mark XIV UBC Supermileage prototype vehicle at the Shell Eco-marathon Americas at Sonoma Raceway, Saturday, April 6, 2019 in Sonoma, California  by Scot Tucker/AP Images for Shell")
 
