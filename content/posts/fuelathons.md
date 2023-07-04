@@ -25,7 +25,7 @@ The SAE Supermileage competition ran from 1980 to 2022, spanning 42 competitions
 
 One of the known and unknown aspects of the fuelathons is the world records for the different fuel classes. As far as I could find, there were five records of note. First is for the gasoline category, where MicroJoule captured back in 2003. They bested this record is consecutive years, but it was difficult to pinpoint the exact progression of this record.
 
-For the electric vehicle category, there are two main classes with the fuel cell and battery categories. ETH Zürich built the "most efficient vehicle" in Pac-car II in 2206 under the fuel cell category. This would eventually be bested by Duke Electric Vehicles' Maxwell car in 2018. The battery category was won by TU Munich in 2016, but were also bested by Duke Electric Vehicles' Eta car in 2019.
+For the electric vehicle category, there are two main classes with the fuel cell and battery categories. ETH Zürich built the "most efficient vehicle" in Pac-car II in 2005 under the fuel cell category. This would eventually be bested by Duke Electric Vehicles' Maxwell car in 2018. The battery category was won by TU Munich in 2016, but were also bested by Duke Electric Vehicles' Eta car in 2019.
 
 See the table below for more details.
 
