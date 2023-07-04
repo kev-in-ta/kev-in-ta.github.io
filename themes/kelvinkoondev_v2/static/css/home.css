@@ -409,3 +409,19 @@ hr {
     border-bottom: 1px solid #593196;
     padding: 0.6rem;
   }
+
+a.footnote-ref {
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+    color: #593196;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    }
+
+a.footnote-ref:hover {
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #e64a6a;
+    border-bottom: 0px solid #e64a6a;
+    }
