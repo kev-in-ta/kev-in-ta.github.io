@@ -13,17 +13,17 @@ Beyond the aforementioned SAE Supermileage competition, the premier competition 
 
 ### Shell Eco-Marathon
 
-Shell has a long history of supporting investigations into improving fuel efficiency, spanning as far back as 1939[^2]. The modern incarnation of the Shell Eco-Marathon began in Europe in 1985 in France[^3]. Shell has made a number of short videos showcasing the legacy and history of the competition, many of which are mostly hosted unlisted. You can see what they have to say in [2012](https://www.youtube.com/watch?v=2ImSHgBn2kA) and more recently in [2020](https://www.youtube.com/watch?v=vuErQbe3_qI), which so happens to feature the 8870 mpg record from La Joliverie MicroJoule. I believe there are some discrepancies in the reported number here for the record caused by the various unit conversions from mpg(US), mpg(imp), and L/km, but neat to have that as part of the official record displayed by Shell.
+Shell has a long history of supporting investigations into improving fuel efficiency, spanning as far back as 1939[^2]. The modern incarnation of the Shell Eco-Marathon began in Europe in 1985 in France[^3]. Shell has made a number of short videos showcasing the legacy and history of the competition, many of which are hosted unlisted. You can see what they have to say in [2012](https://www.youtube.com/watch?v=2ImSHgBn2kA) and more recently in [2020](https://www.youtube.com/watch?v=vuErQbe3_qI), which so happens to feature the 8870 mpg record from La Joliverie MicroJoule. I believe there are some discrepancies in the reported number here for the record caused by the various unit conversions from mpg(US), mpg(imp), and L/km, but neat to have that as part of the official record displayed by Shell.
 
 You can find some more information from their current [about page](https://www.shellecomarathon.com/about.html) (whose link I expect to break at any point since Shell loves to redesign the Shell Eco-Marathon website).
 
 ### SAE Supermileage
 
-The SAE Supermileage competition ran from 1980 to 2022, spanning 42 competitions. From 1984 to 1996, two separate competitions hosted in Michigan and on the west coast coexisted, before merging 1997. Since hosted at the Eaton Marshall Proving Grounds, this competition was a hallmark for fuelathon competitions, predating even the Shell Eco-Marathon.
+The SAE Supermileage competition ran from 1980 to 2022, spanning 43 competitions. From 1984 to 1996, two separate competitions hosted in Michigan and on the west coast coexisted, before merging in 1997. Since hosted at the Eaton Marshall Proving Grounds, the competition was a hallmark for fuelathon competitions, predating even the Shell Eco-Marathon.
 
 ## World Records
 
-One of the known and unknown aspects of the fuelathons is the world records for the different fuel classes. As far as I could find, there were five records of note. First is for the gasoline category, where MicroJoule captured back in 2003. They bested this record is consecutive years, but it was difficult to pinpoint the exact progression of this record.
+One of the interesting side histories of the fuelathons is the world records for the different fuel classes. As far as I could find, there were five records of note. First is for the gasoline category, where MicroJoule captured back in 2003. They bested this record is consecutive years, but it was difficult to pinpoint the exact progression of this record.
 
 For the electric vehicle category, there are two main classes with the fuel cell and battery categories. ETH Zürich built the "most efficient vehicle" in Pac-car II in 2005 under the fuel cell category. This would eventually be bested by Duke Electric Vehicles' Maxwell car in 2018. The battery category was won by TU Munich in 2016, but were also bested by Duke Electric Vehicles' Eta car in 2019.
 
@@ -39,7 +39,7 @@ See the table below for more details.
 | [Duke Electric Vehicles](http://www.duke-ev.org/) Eta | 2019 | Battery | [797 mi/kWh (1283 km/kWh)](https://pratt.duke.edu/about/news/duke-student-team-wins-second-guinness-world-record-vehicle-efficiency) |
 {{</table>}}
 
-It may be a long time before we see another record set in any of these categories, however. A key success to such high efficiencies are low rolling resistance tires. There is only one class of tires that are truly competitive, the Michelin "blacks" or "radials", which were last available for sale in 2016. As the finite supply of these tires continues to dwindle, and the rubber degrades[^1], these records may stay out of reach for a long time to come.
+It may be a long time before we see another record set in any of these categories, however. A key success to such high efficiencies are low rolling resistance tires. There is only one class of tires that are truly competitive, the Michelin "blacks" or "radials," which were last available for sale in 2016. As the finite supply of these tires continues to dwindle, and the rubber degrades[^1], these records may stay out of reach for a long time to come.
 
 ## Building the Most Efficient Vehicles
 
