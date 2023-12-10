@@ -186,6 +186,9 @@ figure {
 .dark-mode-toggle {
     color: rgb(214, 184, 255);
 }
+a.footnote-ref {
+    color: rgb(195, 149, 255);
+    }
 li > a {
     background-color: rgba(66, 70, 72, 0.3);
 }
