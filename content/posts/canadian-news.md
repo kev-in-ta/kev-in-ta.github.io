@@ -2,7 +2,7 @@
 title: "Canadian News & Social Media Monopolies"
 date: 2023-12-16
 tags: ["media", "canada"]
-draft: true
+draft: false
 ---
 
 Hey, have you noticed? [News is hard to find these days on social media](https://thetyee.ca/Opinion/2023/07/14/Meta-Blocked-Tyee-Journalism-Online-News-Act-Readers-Sharing/)[^1], not in small part because [Meta decided to remove the presence of news organisations](https://web.archive.org/web/20231118193230/https://about.fb.com/news/2023/06/changes-to-news-availability-on-our-platforms-in-canada/) in response to [Bill C-18](https://www.justice.gc.ca/eng/csj-sjc/pl/charter-charte/c18_1.html). This bill aims to target the trillion dollar companies controlling the way we consume media in hopes of compensating Canadian news organisations. For companies who rely on, exploit, and control the modern distribution of news, it seems par for the course to utilise their monopoly position to force governments and the fourth estate into submission. 
