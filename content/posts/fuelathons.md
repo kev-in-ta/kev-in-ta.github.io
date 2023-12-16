@@ -73,7 +73,7 @@ I'm using the word "notable" somewhat loosely here, but below are a few supermil
 By no means is this an exhaustive exploration of fuelathons, but I figure it would be a good starting point for anyone interested in the history of such competitions. [Let me know](mailto:contact@kevinta.dev) if anything is wrong or if you found this interesting!
 
 [^1]: Miranda Volborth. "[Duke Student Team Wins Second Guinness World Record for Vehicle Efficiency](https://pratt.duke.edu/about/news/duke-students-break-guinness-world-record-fuel-efficiency)," Duke University, 2019.
-[^2]: W. S. Affleck and G. B. Toft. [Mileage Marathons](https://link.springer.com/chapter/10.1007/978-1-349-03418-5_12),"  Fuel Economy of the Gasoline Engine: Fuel, Lubricant and Other Effects, 1977.
+[^2]: W. S. Affleck and G. B. Toft. "[Mileage Marathons](https://link.springer.com/chapter/10.1007/978-1-349-03418-5_12),"  Fuel Economy of the Gasoline Engine: Fuel, Lubricant and Other Effects, 1977.
 [^3]: "[History of Shell Eco-marathon](https://web.archive.org/web/20120218180157/https://www.shell.com/home/content/ecomarathon/about/history)," Shell, 2009.
-[^4]: J.J. Santin, C.H. Onder, J. Bernard, D. Isler, P. Kobler, F. Kolb, N. Weidmann, and L. Guzzella. ""[The World's Most Fuel Efficient Vehicle: The Design and Development of PAC-Car II](https://www.paccar.ethz.ch/book/)," ETH Zurich, 2007.
-[^5]: Patrick Grady, Gerry Chen, Shomik Verma, Aniruddh Marellapudi, and Nico Hotz. ""[A Study of Energy Losses in the World's Most Fuel Efficient Vehicle,](https://ieeexplore.ieee.org/document/8952212)" IEEE Conference on Vehicle Power and Propulsion (VPPC), 2019.
+[^4]: J.J. Santin, C.H. Onder, J. Bernard, D. Isler, P. Kobler, F. Kolb, N. Weidmann, and L. Guzzella. "[The World's Most Fuel Efficient Vehicle: The Design and Development of PAC-Car II](https://www.paccar.ethz.ch/book/)," ETH Zurich, 2007.
+[^5]: Patrick Grady, Gerry Chen, Shomik Verma, Aniruddh Marellapudi, and Nico Hotz. "[A Study of Energy Losses in the World's Most Fuel Efficient Vehicle,](https://ieeexplore.ieee.org/document/8952212)," IEEE Conference on Vehicle Power and Propulsion (VPPC), 2019.
