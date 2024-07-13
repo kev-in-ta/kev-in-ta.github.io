@@ -8,4 +8,4 @@ My professional interests lie in multi-sensor systems, computer vision, and robo
 
 During my undergraduate studies, I captained the [UBC Supermileage](https://www.supermileage.ca) team, an engineering design team building ultra-efficient vehicles. I am also a James Dyson National Award winner alongside my capstone team for our work on the [Attentiv Catheter](https://www.attentivmedical.com/).
 
-I'm motivated by working at the intersection of hardware and software, for the purpose of improving our day-to-day lives. Beyond my work and research, you'll find me crushing at the bouldering gym, meeting up with my book club, or cursing at RNG when things don't go my way while playing board games.
+I'm most excited at solving problems at the intersection of hardware and software, in pursuit of improving our day-to-day lives. Beyond my work and research, you'll find me crushing at the bouldering gym, meeting up with my book club, or cursing at RNG when things go awry playing board games. 
